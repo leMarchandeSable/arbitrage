@@ -1,0 +1,28 @@
+.
+├── arbitrage_analysis_project/       # Root project directory
+│   ├── config/                       # Configuration files or modules
+│   │   ├── __init__.py               # Makes this a Python package
+│   │   └── bookmaker_config.py       # Contains bookmaker-specific configurations (e.g., URLs, CSS selectors)
+│   ├── data/                         # Directory for storing data
+│   │   ├── odds/                     # Subdirectory for bookmaker odds data
+│   │   │   ├── bookmaker_a.csv       # Odds data for Bookmaker A
+│   │   │   ├── bookmaker_b.csv       # Odds data for Bookmaker B
+│   │   │   └── combined_odds.csv     # Consolidated odds data from all bookmakers
+│   │   └── official_schedule.csv     # Official schedule fetched from the API
+│   ├── logs/                         # Directory for log files
+│   │   └── arbitrage_analysis.log    # Log file for debugging and tracking
+│   ├── src/                          # Source code for the application
+│   │   ├── __init__.py               # Makes this a Python package
+│   │   ├── fetcher.py                # Fetcher class for odds and schedules
+│   │   ├── processor.py              # Processing logic for odds and schedule comparison
+│   │   ├── analyzer.py               # Logic to detect arbitrage opportunities
+│   │   └── main.py                   # Entry point for the application
+│   ├── tests/                        # Directory for unit and integration tests
+│   │   ├── __init__.py               # Makes this a Python package
+│   │   ├── test_fetcher.py           # Tests for the fetcher logic
+│   │   ├── test_processor.py         # Tests for the processing logic
+│   │   └── test_analyzer.py          # Tests for arbitrage analysis logic
+│   ├── README.md                     # Documentation for the project
+│   ├── requirements.txt              # Python dependencies
+│   ├── .gitignore                    # Git ignore file for unnecessary files (e.g., `__pycache__`, `.log`, `.csv`)
+│   └── LICENSE                       # License file for the project

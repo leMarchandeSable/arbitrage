@@ -1,0 +1,135 @@
+Date,Away Team,Away Team Abbreviation,Home Team,Home Team Abbreviation,Venue,Start Time (UTC)
+2024-12-12,Ducks,ANA,Maple Leafs,TOR,Scotiabank Arena,2024-12-13T00:00:00Z
+2024-12-12,Penguins,PIT,Canadiens,MTL,Centre Bell,2024-12-13T00:00:00Z
+2024-12-12,Kings,LAK,Devils,NJD,Prudential Center,2024-12-13T00:00:00Z
+2024-12-12,Red Wings,DET,Flyers,PHI,Wells Fargo Center,2024-12-13T00:00:00Z
+2024-12-12,Capitals,WSH,Blue Jackets,CBJ,Nationwide Arena,2024-12-13T00:00:00Z
+2024-12-12,Blackhawks,CHI,Islanders,NYI,UBS Arena,2024-12-13T00:30:00Z
+2024-12-12,Sharks,SJS,Blues,STL,Enterprise Center,2024-12-13T01:00:00Z
+2024-12-12,Predators,NSH,Stars,DAL,American Airlines Center,2024-12-13T01:00:00Z
+2024-12-12,Golden Knights,VGK,Jets,WPG,Canada Life Centre,2024-12-13T01:00:00Z
+2024-12-12,Oilers,EDM,Wild,MIN,Xcel Energy Center,2024-12-13T01:30:00Z
+2024-12-12,Utah Hockey Club,UTA,Avalanche,COL,Ball Arena,2024-12-13T02:00:00Z
+2024-12-12,Lightning,TBL,Flames,CGY,Scotiabank Saddledome,2024-12-13T02:00:00Z
+2024-12-12,Panthers,FLA,Canucks,VAN,Rogers Arena,2024-12-13T03:00:00Z
+2024-12-12,Bruins,BOS,Kraken,SEA,Climate Pledge Arena,2024-12-13T03:00:00Z
+2024-12-13,Senators,OTT,Hurricanes,CAR,Lenovo Center,2024-12-14T00:00:00Z
+2024-12-14,Blackhawks,CHI,Devils,NJD,Prudential Center,2024-12-14T18:00:00Z
+2024-12-14,Kings,LAK,Rangers,NYR,Madison Square Garden,2024-12-14T18:00:00Z
+2024-12-14,Flyers,PHI,Wild,MIN,Xcel Energy Center,2024-12-14T19:00:00Z
+2024-12-14,Golden Knights,VGK,Oilers,EDM,Rogers Place,2024-12-14T21:00:00Z
+2024-12-14,Penguins,PIT,Senators,OTT,Canadian Tire Centre,2024-12-15T00:00:00Z
+2024-12-14,Maple Leafs,TOR,Red Wings,DET,Little Caesars Arena,2024-12-15T00:00:00Z
+2024-12-14,Sabres,BUF,Capitals,WSH,Capital One Arena,2024-12-15T00:00:00Z
+2024-12-14,Ducks,ANA,Blue Jackets,CBJ,Nationwide Arena,2024-12-15T00:00:00Z
+2024-12-14,Canadiens,MTL,Jets,WPG,Canada Life Centre,2024-12-15T00:00:00Z
+2024-12-14,Blues,STL,Stars,DAL,American Airlines Center,2024-12-15T01:00:00Z
+2024-12-14,Predators,NSH,Avalanche,COL,Ball Arena,2024-12-15T02:00:00Z
+2024-12-14,Panthers,FLA,Flames,CGY,Scotiabank Saddledome,2024-12-15T03:00:00Z
+2024-12-14,Bruins,BOS,Canucks,VAN,Rogers Arena,2024-12-15T03:00:00Z
+2024-12-14,Utah Hockey Club,UTA,Sharks,SJS,SAP Center at San Jose,2024-12-15T03:00:00Z
+2024-12-14,Lightning,TBL,Kraken,SEA,Climate Pledge Arena,2024-12-15T03:00:00Z
+2024-12-15,Islanders,NYI,Blackhawks,CHI,United Center,2024-12-15T20:00:00Z
+2024-12-15,Sabres,BUF,Maple Leafs,TOR,Scotiabank Arena,2024-12-15T22:00:00Z
+2024-12-15,Blue Jackets,CBJ,Hurricanes,CAR,Lenovo Center,2024-12-15T22:00:00Z
+2024-12-15,Rangers,NYR,Blues,STL,Enterprise Center,2024-12-15T23:00:00Z
+2024-12-15,Golden Knights,VGK,Wild,MIN,Xcel Energy Center,2024-12-15T23:00:00Z
+2024-12-16,Capitals,WSH,Stars,DAL,American Airlines Center,2024-12-17T01:00:00Z
+2024-12-16,Panthers,FLA,Oilers,EDM,Rogers Place,2024-12-17T01:30:00Z
+2024-12-16,Avalanche,COL,Canucks,VAN,Rogers Arena,2024-12-17T03:30:00Z
+2024-12-17,Sabres,BUF,Canadiens,MTL,Centre Bell,2024-12-18T00:00:00Z
+2024-12-17,Blue Jackets,CBJ,Lightning,TBL,Amalie Arena,2024-12-18T00:00:00Z
+2024-12-17,Kings,LAK,Penguins,PIT,PPG Paints Arena,2024-12-18T00:00:00Z
+2024-12-17,Islanders,NYI,Hurricanes,CAR,Lenovo Center,2024-12-18T00:30:00Z
+2024-12-17,Devils,NJD,Blues,STL,Enterprise Center,2024-12-18T01:00:00Z
+2024-12-17,Rangers,NYR,Predators,NSH,Bridgestone Arena,2024-12-18T01:00:00Z
+2024-12-17,Capitals,WSH,Blackhawks,CHI,United Center,2024-12-18T01:30:00Z
+2024-12-17,Bruins,BOS,Flames,CGY,Scotiabank Saddledome,2024-12-18T02:00:00Z
+2024-12-17,Senators,OTT,Kraken,SEA,Climate Pledge Arena,2024-12-18T03:00:00Z
+2024-12-17,Jets,WPG,Sharks,SJS,SAP Center at San Jose,2024-12-18T03:30:00Z
+2024-12-18,Flyers,PHI,Red Wings,DET,Little Caesars Arena,2024-12-19T00:00:00Z
+2024-12-18,Maple Leafs,TOR,Stars,DAL,American Airlines Center,2024-12-19T00:30:00Z
+2024-12-18,Panthers,FLA,Wild,MIN,Xcel Energy Center,2024-12-19T02:30:00Z
+2024-12-18,Canucks,VAN,Utah Hockey Club,UTA,Delta Center,2024-12-19T03:00:00Z
+2024-12-18,Jets,WPG,Ducks,ANA,Honda Center,2024-12-19T03:00:00Z
+2024-12-20,Maple Leafs,TOR,Sabres,BUF,KeyBank Center,2024-12-21T00:00:00Z
+2024-12-20,Canadiens,MTL,Red Wings,DET,Little Caesars Arena,2024-12-21T00:00:00Z
+2024-12-20,Blues,STL,Panthers,FLA,Amerant Bank Arena,2024-12-21T00:00:00Z
+2024-12-20,Hurricanes,CAR,Capitals,WSH,Capital One Arena,2024-12-21T00:00:00Z
+2024-12-20,Rangers,NYR,Stars,DAL,American Airlines Center,2024-12-21T01:00:00Z
+2024-12-20,Utah Hockey Club,UTA,Wild,MIN,Xcel Energy Center,2024-12-21T01:00:00Z
+2024-12-20,Avalanche,COL,Ducks,ANA,Honda Center,2024-12-21T03:00:00Z
+2024-12-21,Kings,LAK,Predators,NSH,Bridgestone Arena,2024-12-21T18:30:00Z
+2024-12-21,Blackhawks,CHI,Flames,CGY,Scotiabank Saddledome,2024-12-21T21:00:00Z
+2024-12-21,Sharks,SJS,Oilers,EDM,Rogers Place,2024-12-21T21:00:00Z
+2024-12-21,Sabres,BUF,Bruins,BOS,TD Garden,2024-12-22T00:00:00Z
+2024-12-21,Islanders,NYI,Maple Leafs,TOR,Scotiabank Arena,2024-12-22T00:00:00Z
+2024-12-21,Red Wings,DET,Canadiens,MTL,Centre Bell,2024-12-22T00:00:00Z
+2024-12-21,Penguins,PIT,Devils,NJD,Prudential Center,2024-12-22T00:00:00Z
+2024-12-21,Blue Jackets,CBJ,Flyers,PHI,Wells Fargo Center,2024-12-22T00:00:00Z
+2024-12-21,Wild,MIN,Jets,WPG,Canada Life Centre,2024-12-22T00:00:00Z
+2024-12-21,Senators,OTT,Canucks,VAN,Rogers Arena,2024-12-22T03:00:00Z
+2024-12-21,Kraken,SEA,Golden Knights,VGK,T-Mobile Arena,2024-12-22T03:00:00Z
+2024-12-22,Hurricanes,CAR,Rangers,NYR,Madison Square Garden,2024-12-22T17:30:00Z
+2024-12-22,Panthers,FLA,Lightning,TBL,Amalie Arena,2024-12-22T22:00:00Z
+2024-12-22,Kings,LAK,Capitals,WSH,Capital One Arena,2024-12-22T22:00:00Z
+2024-12-22,Ducks,ANA,Utah Hockey Club,UTA,Delta Center,2024-12-22T22:00:00Z
+2024-12-22,Kraken,SEA,Avalanche,COL,Ball Arena,2024-12-23T01:00:00Z
+2024-12-22,Senators,OTT,Oilers,EDM,Rogers Place,2024-12-23T01:00:00Z
+2024-12-23,Rangers,NYR,Devils,NJD,Prudential Center,2024-12-23T18:00:00Z
+2024-12-23,Jets,WPG,Maple Leafs,TOR,Scotiabank Arena,2024-12-23T19:00:00Z
+2024-12-23,Capitals,WSH,Bruins,BOS,TD Garden,2024-12-24T00:00:00Z
+2024-12-23,Blues,STL,Red Wings,DET,Little Caesars Arena,2024-12-24T00:00:00Z
+2024-12-23,Lightning,TBL,Panthers,FLA,Amerant Bank Arena,2024-12-24T00:00:00Z
+2024-12-23,Flyers,PHI,Penguins,PIT,PPG Paints Arena,2024-12-24T00:00:00Z
+2024-12-23,Canadiens,MTL,Blue Jackets,CBJ,Nationwide Arena,2024-12-24T00:00:00Z
+2024-12-23,Sabres,BUF,Islanders,NYI,UBS Arena,2024-12-24T00:30:00Z
+2024-12-23,Hurricanes,CAR,Predators,NSH,Bridgestone Arena,2024-12-24T01:00:00Z
+2024-12-23,Blackhawks,CHI,Wild,MIN,Xcel Energy Center,2024-12-24T01:00:00Z
+2024-12-23,Sharks,SJS,Canucks,VAN,Rogers Arena,2024-12-24T02:00:00Z
+2024-12-23,Stars,DAL,Utah Hockey Club,UTA,Delta Center,2024-12-24T02:00:00Z
+2024-12-23,Ducks,ANA,Golden Knights,VGK,T-Mobile Arena,2024-12-24T03:00:00Z
+2024-12-27,Blackhawks,CHI,Sabres,BUF,KeyBank Center,2024-12-28T00:00:00Z
+2024-12-27,Maple Leafs,TOR,Red Wings,DET,Little Caesars Arena,2024-12-28T00:00:00Z
+2024-12-27,Hurricanes,CAR,Devils,NJD,Prudential Center,2024-12-28T00:00:00Z
+2024-12-27,Bruins,BOS,Blue Jackets,CBJ,Nationwide Arena,2024-12-28T00:00:00Z
+2024-12-27,Predators,NSH,Blues,STL,Enterprise Center,2024-12-28T01:00:00Z
+2024-12-27,Wild,MIN,Stars,DAL,American Airlines Center,2024-12-28T01:00:00Z
+2024-12-27,Avalanche,COL,Utah Hockey Club,UTA,Delta Center,2024-12-28T02:30:00Z
+2024-12-27,Golden Knights,VGK,Sharks,SJS,SAP Center at San Jose,2024-12-28T03:30:00Z
+2024-12-28,Canadiens,MTL,Panthers,FLA,Amerant Bank Arena,2024-12-28T18:00:00Z
+2024-12-28,Kraken,SEA,Canucks,VAN,Rogers Arena,2024-12-28T21:00:00Z
+2024-12-28,Flyers,PHI,Ducks,ANA,Honda Center,2024-12-28T21:00:00Z
+2024-12-28,Oilers,EDM,Kings,LAK,Crypto.com Arena,2024-12-28T21:00:00Z
+2024-12-28,Blue Jackets,CBJ,Bruins,BOS,TD Garden,2024-12-29T00:00:00Z
+2024-12-28,Capitals,WSH,Maple Leafs,TOR,Scotiabank Arena,2024-12-29T00:00:00Z
+2024-12-28,Rangers,NYR,Lightning,TBL,Amalie Arena,2024-12-29T00:00:00Z
+2024-12-28,Devils,NJD,Hurricanes,CAR,Lenovo Center,2024-12-29T00:00:00Z
+2024-12-28,Senators,OTT,Jets,WPG,Canada Life Centre,2024-12-29T00:00:00Z
+2024-12-28,Penguins,PIT,Islanders,NYI,UBS Arena,2024-12-29T00:30:00Z
+2024-12-28,Flames,CGY,Sharks,SJS,SAP Center at San Jose,2024-12-29T03:00:00Z
+2024-12-29,Sabres,BUF,Blues,STL,Enterprise Center,2024-12-29T20:00:00Z
+2024-12-29,Oilers,EDM,Ducks,ANA,Honda Center,2024-12-29T21:00:00Z
+2024-12-29,Capitals,WSH,Red Wings,DET,Little Caesars Arena,2024-12-29T22:00:00Z
+2024-12-29,Canadiens,MTL,Lightning,TBL,Amalie Arena,2024-12-29T22:00:00Z
+2024-12-29,Islanders,NYI,Penguins,PIT,PPG Paints Arena,2024-12-29T22:30:00Z
+2024-12-29,Senators,OTT,Wild,MIN,Xcel Energy Center,2024-12-30T01:00:00Z
+2024-12-29,Flames,CGY,Golden Knights,VGK,T-Mobile Arena,2024-12-30T01:00:00Z
+2024-12-29,Stars,DAL,Blackhawks,CHI,United Center,2024-12-30T01:30:00Z
+2024-12-29,Flyers,PHI,Kings,LAK,Crypto.com Arena,2024-12-30T02:00:00Z
+2024-12-30,Rangers,NYR,Panthers,FLA,Amerant Bank Arena,2024-12-31T00:00:00Z
+2024-12-30,Predators,NSH,Jets,WPG,Canada Life Centre,2024-12-31T00:30:00Z
+2024-12-30,Utah Hockey Club,UTA,Kraken,SEA,Climate Pledge Arena,2024-12-31T01:00:00Z
+2024-12-31,Bruins,BOS,Capitals,WSH,Capital One Arena,2024-12-31T17:30:00Z
+2024-12-31,Islanders,NYI,Maple Leafs,TOR,Scotiabank Arena,2024-12-31T18:00:00Z
+2024-12-31,Canadiens,MTL,Golden Knights,VGK,T-Mobile Arena,2024-12-31T20:00:00Z
+2024-12-31,Blues,STL,Blackhawks,CHI,Wrigley Field,2024-12-31T22:00:00Z
+2024-12-31,Penguins,PIT,Red Wings,DET,Little Caesars Arena,2025-01-01T01:00:00Z
+2024-12-31,Hurricanes,CAR,Blue Jackets,CBJ,Nationwide Arena,2025-01-01T01:00:00Z
+2024-12-31,Sabres,BUF,Stars,DAL,American Airlines Center,2025-01-01T01:00:00Z
+2024-12-31,Predators,NSH,Wild,MIN,Xcel Energy Center,2025-01-01T01:00:00Z
+2024-12-31,Jets,WPG,Avalanche,COL,Ball Arena,2025-01-01T01:00:00Z
+2024-12-31,Devils,NJD,Ducks,ANA,Honda Center,2025-01-01T01:00:00Z
+2024-12-31,Flyers,PHI,Sharks,SJS,SAP Center at San Jose,2025-01-01T01:00:00Z
+2024-12-31,Canucks,VAN,Flames,CGY,Scotiabank Saddledome,2025-01-01T02:00:00Z
+2024-12-31,Utah Hockey Club,UTA,Oilers,EDM,Rogers Place,2025-01-01T02:00:00Z
