@@ -8,7 +8,7 @@ class Config:
     FEATURES_PARSER = "html.parser"
 
     # To emulate webdriver, download at https://github.com/mozilla/geckodriver/releases
-    GECKODRIVER_PATH = "src/geckodriver.exe"
+    GECKODRIVER_PATH = "src/utils/geckodriver.exe"
 
     # Timeout settings for requests (to avoid waiting too long)
     TIMEOUT = 10  # Timeout for network requests (seconds)
@@ -34,5 +34,6 @@ class Config_ZEBET(Config):
     CLASS_DATE = "psel-timer"
     CLASS_TEAM = "psel-opponent__name"
     CLASS_ODD = "psel-outcome__data"
-    CLASS_NO_BET = "psel-bet-suspended"
-
+    CLASS_NO_BET = "psel-bet-suspended" # tag: caption
+    # psel-visually-hidden  'Face à Face - Match' or ' 1 N 2 - Temps Réglementaire'
+    # tag: button, class="psel-market-filters__label" (selection of bet type 1N2, F2F...)

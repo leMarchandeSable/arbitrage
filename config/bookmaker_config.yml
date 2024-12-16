@@ -1,0 +1,11 @@
+path:
+  greckodriver: "src/utils/greckodriver.exe"
+  firefoxe: "C:/Program Files/Mozilla Firefox/firefox.exe"
+
+bookmakers:
+  BookmakerA:
+    url: "https://example.com/bookmaker-a"
+    odds_selector:
+      event_block: "div.event-block"
+      team_names: "div.team-name"
+      odds: "span.odds-value"

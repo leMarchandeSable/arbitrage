@@ -1,3 +1,5 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from bs4 import BeautifulSoup
@@ -43,6 +45,7 @@ class EventScraper:
             options.add_argument("--headless")  # Run in headless mode (no GUI)
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
+            options.binary_location = 'C:/Program Files/Mozilla Firefox/firefox.exe'
 
             driver = webdriver.Firefox(service=service, options=options)
             driver.get(self.url)
@@ -67,17 +70,20 @@ class EventScraper:
         for index, event in enumerate(events, start=1):
             try:
                 self.debug_log(f"Processing event {index}/{len(events)}...")
-                team_1, team_2 = self._get_teams(event)
-                match_time = self._get_match_time(event)
+                teams = self._get_teams(event)
+                date = self._get_match_time(event)
                 odds = self._get_odds(event)
 
                 event_data.append({
-                    "Team 1": team_1,
-                    "Team 2": team_2,
-                    "Time": match_time,
-                    "Odds Team 1": odds.get("Team 1", "N/A"),
-                    "Odds Draw": odds.get("Draw", "N/A"),
-                    "Odds Team 2": odds.get("Team 2", "N/A"),
+                    "Date": date['day'],
+                    "Start Time (UTC)": date['time'],
+                    "Home Team": teams['home'],
+                    "Home Team Abbreviation": teams['home short'],
+                    "Away Team": teams['away'],
+                    "Away Team Abbreviation": teams['away short'],
+                    "Home Odd": odds['home'],
+                    "Draw Odd": odds['draw'],
+                    "Away Odd": odds['away'],
                 })
 
                 self.debug_log(f"Event {index} processed successfully: {event_data[-1]}")
@@ -92,13 +98,13 @@ class EventScraper:
         """
         raise NotImplementedError("Subclasses must implement `_get_events`.")
 
-    def _get_teams(self, event) -> (str, str):
+    def _get_teams(self, event) -> (str, str, str, str):
         """
         Extracts team names from an event. Should be overridden in subclasses.
         """
         raise NotImplementedError("Subclasses must implement `_get_teams`.")
 
-    def _get_match_time(self, event) -> str:
+    def _get_match_time(self, event) -> (str, str):
         """
         Extracts match time from an event. Should be overridden in subclasses.
         """
@@ -117,68 +123,72 @@ class Zebet(EventScraper):
     """
 
     # CSS selectors for class names, grouped for easy maintenance
-    CLASS_NAMES = {
-        "event_block": "psel-event",
-        "team_name": "psel-opponent__name",
-        "match_time": "psel-timer",
-        "odds_data": "psel-outcome__data",
+    CSS = {
+        "tag": {
+            "event": "psel-event-main",
+            "event live": "psel-event-live",
+            "date": "time",
+            "team": "span",
+            "odd": "span",
+        },
+        "class": {
+            "event": "psel-event",
+            "event live": "psel-event",
+            "date": "psel-timer",
+            "team": "psel-opponent__name",
+            "odd": "psel-outcome__data",
+        }
     }
 
     def _get_events(self):
-        return self.soup.find_all('psel-event-main', class_='psel-event')
+        return self.soup.find_all(self.CSS['tag']['event'], class_=self.CSS['class']['event'])
 
-    def _get_teams(self, event) -> (str, str):
-        teams = event.find_all('span', class_='psel-opponent__name')
-        team_1 = teams[0].text.strip() if len(teams) > 0 else "Unknown"
-        team_2 = teams[1].text.strip() if len(teams) > 1 else "Unknown"
-        self.debug_log(f"Teams found: {team_1} vs {team_2}")
-        return team_1, team_2
+    def _get_teams(self, event) -> Dict[str, str]:
+        teams_element = event.find_all(self.CSS['tag']['team'], class_=self.CSS['class']['team'])
+        self.debug_log(f"CSS Bloc teams found: {teams_element}")
 
-    def _get_match_time(self, event) -> str:
-        match_time_element = event.find('time', class_='psel-timer')
-        match_time = match_time_element.text.strip() if match_time_element else "Unknown"
-        self.debug_log(f"Match time found: {match_time}")
-        return match_time
+        if len(teams_element) != 2:
+            self.debug_log(f"Not exactly 2 teams: {teams_element}")
+            raise
 
-    def _get_odds(self, event) -> Dict[str, str]:
-        odds_elements = event.find_all('span', class_='psel-outcome__data')
-        odds = {
-            "Team 1": odds_elements[0].text.strip() if len(odds_elements) > 0 else "N/A",
-            "Draw": odds_elements[1].text.strip() if len(odds_elements) > 1 else "N/A",
-            "Team 2": odds_elements[2].text.strip() if len(odds_elements) > 2 else "N/A",
+        teams = {
+            "home short": teams_element[0].text.split()[0],
+            "home": teams_element[0].text.split()[1],
+            "away short": teams_element[1].text.split()[0],
+            "away": teams_element[1].text.split()[1],
         }
-        self.debug_log(f"Odds found: {odds}")
-        return odds
 
+        self.debug_log(f"Teams found: {teams['home short']} {teams['home']} vs {teams['away short']} {teams['away']}")
+        return teams
 
-class BookmakerB(EventScraper):
-    """
-    Scraper for Bookmaker B with a different HTML structure.
-    """
+    def _get_match_time(self, event) -> Dict[str, str]:
+        date_time_element = event.find(self.CSS['tag']['date'], class_=self.CSS['class']['date'])
+        self.debug_log(f"CSS Bloc time found: {date_time_element}")
 
-    def _get_events(self):
-        return self.soup.find_all('div', class_='event-block')
+        day_element = date_time_element.text.split(' à ')[0]
+        time_element = date_time_element.text.split(' à ')[1]
 
-    def _get_teams(self, event) -> (str, str):
-        teams = event.find_all('div', class_='team-name')
-        team_1 = teams[0].text.strip() if len(teams) > 0 else "Unknown"
-        team_2 = teams[1].text.strip() if len(teams) > 1 else "Unknown"
-        self.debug_log(f"Teams found: {team_1} vs {team_2}")
-        return team_1, team_2
-
-    def _get_match_time(self, event) -> str:
-        match_time_element = event.find('div', class_='event-time')
-        match_time = match_time_element.text.strip() if match_time_element else "Unknown"
-        self.debug_log(f"Match time found: {match_time}")
-        return match_time
-
-    def _get_odds(self, event) -> Dict[str, str]:
-        odds_elements = event.find_all('div', class_='odds-value')
-        odds = {
-            "Team 1": odds_elements[0].text.strip() if len(odds_elements) > 0 else "N/A",
-            "Draw": odds_elements[1].text.strip() if len(odds_elements) > 1 else "N/A",
-            "Team 2": odds_elements[2].text.strip() if len(odds_elements) > 2 else "N/A",
+        date = {
+            "day": day_element,
+            "time": time_element,
         }
+        self.debug_log(f"Date found: {date['day']} / {date['time']}")
+        return date
+
+    def _get_odds(self, event) -> Dict[str, float]:
+        odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
+        self.debug_log(f"CSS Bloc odds found: {odds_elements}")
+
+        if len(odds_elements) != 3:
+            self.debug_log(f"Not exactly 3 odds: {odds_elements}")
+            raise
+
+        odds = {
+            "home": float(odds_elements[0].text.replace(',', '.')),
+            "draw": float(odds_elements[1].text.replace(',', '.')),
+            "away": float(odds_elements[2].text.replace(',', '.')),
+        }
+
         self.debug_log(f"Odds found: {odds}")
         return odds
 
@@ -187,8 +197,8 @@ def main():
     """
     Main function to scrape data from ZEbet using Selenium.
     """
-    geckodriver_path = "/path/to/geckodriver"  # Replace with your GeckoDriver path
-    url = "https://www.zebet.fr"  # Replace with ZEbet's URL
+    geckodriver_path = "src/utils/geckodriver.exe"  # Replace with your GeckoDriver path
+    url = "https://www.zebet.fr/paris-hockey-sur-glace/nhl"  # Replace with ZEbet's URL
 
     # Initialize the scraper
     scraper = Zebet(geckodriver_path, url, debug=True)

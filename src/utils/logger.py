@@ -17,4 +17,5 @@ def setup_logger(log_file: str = "logs/arbitrage_analysis.log"):
             logging.StreamHandler()  # Print logs to the console
         ]
     )
+    # logger.propagate = False
     return logging.getLogger("ArbitrageAnalysis")

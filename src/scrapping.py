@@ -16,6 +16,7 @@ def get_driver_url(geckodriver_path, url):
     options.add_argument("--headless")  # Run in headless mode (no GUI)
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 
     # Launch the Firefox browser
     driver = webdriver.Firefox(service=service, options=options)
@@ -38,6 +39,10 @@ html = get_driver_url(conf.GECKODRIVER_PATH, conf.URL)
 # Parse the HTML content
 soup = BeautifulSoup(html, features=conf.FEATURES_PARSER)
 
+# with open("test/zebet_nhl.html", "r") as f:
+#     soup = BeautifulSoup(f, 'html.parser')
+#     print(soup.original_encoding)
+
 # Find all events
 events = soup.find_all(class_=conf.CLASS_EVENT)
 
@@ -48,17 +53,17 @@ for event in events:
         # Date and time: 'À 01h30' or 'Demain à 01h00' or 'Le 14/12 à 02h00'
         date_time = event.findNext(class_=conf.CLASS_DATE).text
         print(date_time)
-        print(date_time.strip())
-        print(date_time.split(' à '))
         date = date_time.split(' à ')[0]
         time = date_time.split(' à ')[1]
 
         # Teams names: 'CLB BJackets'
         home_name = event.findNext(class_=conf.CLASS_TEAM).text
+        print(home_name)
         home_team_short = home_name.split()[0]
         home_team = home_name.split()[1]
 
         away_name = event.findNext(class_=conf.CLASS_TEAM).text
+        print(away_name)
         away_team_short = away_name.split()[0]
         away_team = away_name.split()[1]
 
@@ -68,8 +73,6 @@ for event in events:
         away_odd = float(event.findNext(class_=conf.CLASS_ODD).text.replace(',', '.'))
 
         event_data.append({
-            "Date": date,
-            "Start Time (UTC)": time,
             "Home Team": home_team,
             "Home Team Abbreviation": home_team_short,
             "Away Team": away_team,
