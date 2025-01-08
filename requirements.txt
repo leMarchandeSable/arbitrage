@@ -2,3 +2,6 @@ requests
 bs4
 pandas
 selenium
+pyyaml
+playwright
+playwright-stealth

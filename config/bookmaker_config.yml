@@ -1,11 +1,37 @@
 path:
   greckodriver: "src/utils/greckodriver.exe"
-  firefoxe: "C:/Program Files/Mozilla Firefox/firefox.exe"
+  firefox: "C:/Program Files/Mozilla Firefox/firefox.exe"
+  database: "data/database.csv"
 
 bookmakers:
-  BookmakerA:
-    url: "https://example.com/bookmaker-a"
-    odds_selector:
-      event_block: "div.event-block"
-      team_names: "div.team-name"
-      odds: "span.odds-value"
+  Zebet:
+    mode: "playwright"
+    actions:
+      - click_on: "Continuer sans accepter"
+    sport:
+      NHL: "https://www.zebet.fr/paris-hockey-sur-glace/nhl"
+      AHL: "https://www.zebet.fr/paris-hockey-sur-glace/ahl"
+
+  Pmu:
+    mode: "playwright"
+    actions:
+      - wait_for_selector: "div.WebsiteOverlay__WidgetContainer-sc-1al8z1m-2"    # Wait for the cookie consent pop-up to appear
+      - click_on: "Continuer sans accepter"         # Click the "Continuer sans accepter" button
+      - wait_for_selector: "div.sports-content"
+      - reload: ""
+      - click_on: "NHL"
+    sport:
+      NHL: "https://parisportif.pmu.fr/home/wrapper/events?activeSportId=10&leagues=%5B1927%5D"
+      Ligue1: "https://parisportif.pmu.fr/home/wrapper/events?activeSportId=1&leagues=%5B123%5D&boost=%5B%5D"
+
+  Winamax:
+    mode: "playwright"
+    sport:
+      NHL: "https://www.winamax.fr/paris-sportifs/sports/4/37/142"
+
+  Netbet:
+    mode: "playwright"
+    actions:
+      - click_on: "Matchs"
+    sport:
+      NHL: "https://www.netbet.fr/hockey-glace/etats-unis/nhl"
