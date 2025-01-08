@@ -1,6 +1,8 @@
-from class_scrapper import Zebet, Winamax, Netbet
-from utils.csv_loader import DatabaseManager
-from utils.config_loader import load_config
+from netbet import Netbet
+from winamax import Winamax
+from zebet import Zebet
+from utils.loader_csv import DatabaseManager
+from utils.loader_config import load_config
 
 
 # --------------------- CONST ---------------------
