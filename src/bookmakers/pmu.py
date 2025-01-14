@@ -1,25 +1,23 @@
 import datetime
-from src.utils.loader_config import load_config
-from src.utils.class_scrapper import EventScraper
+from utils.loaders import load_config
+from utils.class_scrapper import EventScraper
 
 
-class Winamax(EventScraper):
+class Pmu(EventScraper):
 
     # CSS selectors for class names, grouped for easy maintenance
     CSS = {
         "tag": {
             "event": "div",
-            "event live": "",
             "date": "span",
             "team": "span",
             "odd": "span",
         },
         "class": {
-            "event": "sc-gmaIPR hSSQYr",
-            "event live": "",
-            "date": "sc-jNwOwP kIBFoa",
-            "team": "sc-kDrquE",
-            "odd": "sc-fxLEgV bogQto",
+            "event": "sb-event-list__event sb-event-list__event--desktop",
+            "date": "sb-event-list__event__time",
+            "team": "sb-event-list__competitor sb-event-list__competitor--prematch",
+            "odd": "sb-event-list__selection__outcome-value ng-star-inserted",
         }
     }
 
@@ -71,7 +69,7 @@ class Winamax(EventScraper):
 
             # date like: 'mardi à 19:35'
             else:
-                # delta_day = (weekday_now + weekday_game + 1) % 7
+                # delta_day = (weekday_now + weekday_game + 2) % 7
                 # exemple:
                 #   now=dimanche(6), demain +1, mardi(1)+1 = +2, mecredi(2)+1 = +3
                 #   now=jeudi(3), demain +1, samedi(5)+1 = +2, dimanche(6)+1 = +3
@@ -124,7 +122,7 @@ def main():
     sport = "NHL"     # "NHL"
 
     # Initialize the scraper
-    scraper = Winamax(config, sport, debug=True)
+    scraper = Pmu(config, sport, debug=True)
     extracted_data = scraper.extract_event_data()
 
     print("\nExtracted Data:")

@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from playwright.sync_api import sync_playwright
-
-from src.utils.class_logger import Logger
+import playwright._impl._errors as playwright_error
+from utils.class_logger import Logger
 
 
 class WebDriver:
@@ -53,6 +53,10 @@ class WebDriver:
 
             self.logger.info_log(f"HTML fetched successfully in {time.time() - start_time:.2f} seconds.")
             return BeautifulSoup(html, "html.parser")
+
+        except playwright_error.TimeoutError as te:
+            self.logger.debug_log(f"Timeout error fetching HTML: {te}")
+            raise TimeoutError(f"Timeout error fetching HTML: {te}")
         except Exception as e:
             self.logger.debug_log(f"Error fetching HTML: {e}")
             raise
@@ -94,12 +98,12 @@ class WebDriver:
                 browser = p.chromium.launch(headless=not self.debug)
                 context = browser.new_context(
                     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-                    viewport={"width": 1280, "height": 800},
+                    viewport={"width": 800, "height": 500},
                     locale="fr-FR",
                     timezone_id="Europe/Paris",
                 )
                 page = context.new_page()
-                page.goto(url)
+                page.goto(url, timeout=self.timeout)
 
                 if actions:
                     self._perform_actions(page, actions)
@@ -109,6 +113,7 @@ class WebDriver:
                 return html
         except Exception as e:
             self.logger.debug_log(f"Playwright error: {e}")
+            browser.close()
             raise
 
     def _perform_actions(self, page, actions: list):

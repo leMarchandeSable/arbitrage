@@ -1,9 +1,9 @@
 import datetime
 from bs4 import BeautifulSoup
-from typing import List, Dict, Optional
+import os
 
-from src.utils.class_logger import Logger
-from src.utils.class_webdriver import WebDriver
+from utils.class_logger import Logger
+from utils.class_webdriver import WebDriver
 
 
 class EventScraper:
@@ -23,7 +23,7 @@ class EventScraper:
 
         self.config = config
         self.sport = sport
-        self.timeout = 5000  # Wait timeout for content to load (ms)
+        self.timeout = 120000  # Wait timeout for content to load (ms)
         self.debug = debug
         self.actions = self._get_actions()
         self.mode = self._get_driver_mode()
@@ -45,11 +45,11 @@ class EventScraper:
     def _get_driver_mode(self) -> str:
         return self.config["bookmakers"][self.get_bookmaker_name()]["mode"]
 
-    def _get_actions(self) -> Optional[list]:
+    def _get_actions(self) -> list:
         if "actions" in self.config["bookmakers"][self.get_bookmaker_name()].keys():
             return self.config["bookmakers"][self.get_bookmaker_name()]["actions"]
 
-    def extract_event_data(self) -> List[Dict[str, Optional[str]]]:
+    def extract_event_data(self) -> list:
         """
         Extracts event data by invoking subclass-specific methods.
 
@@ -75,16 +75,16 @@ class EventScraper:
                     "Sport": self.sport,
                     "Date": date["day"],
                     "Start Time (UTC)": date["time"],
-                    "Home Team": teams["home"],
-                    "Away Team": teams["away"],
+                    "Home Team Unparse": teams["home"],
+                    "Away Team Unparse": teams["away"],
                     "Home Odd": odds["home"],
                     "Draw Odd": odds["draw"],
                     "Away Odd": odds["away"],
-                    "Date Unpase": date["element"],
-                    "srapping_time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "Date Unparse": date["element"],
+                    "scrapping_time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 }
                 event_data.append(data)
-                self.logger.info_log(f"Processed event {index}: {data}")
+                # self.logger.info_log(f"Processed event {index}: {data}")
 
             except KeyError as key_err:
                 self.logger.debug_log(f"Missing key in event {index}: {key_err}")
@@ -99,19 +99,19 @@ class EventScraper:
         """
         raise NotImplementedError("Subclasses must implement `_get_events`.")
 
-    def _get_teams(self, event) -> Dict[str, str]:
+    def _get_teams(self, event):
         """
         Extracts team names from an event. Should be overridden in subclasses.
         """
         raise NotImplementedError("Subclasses must implement `_get_teams`.")
 
-    def _get_match_time(self, event) -> Dict[str, str]:
+    def _get_match_time(self, event):
         """
         Extracts match time from an event. Should be overridden in subclasses.
         """
         raise NotImplementedError("Subclasses must implement `_get_match_time`.")
 
-    def _get_odds(self, event) -> Dict[str, float]:
+    def _get_odds(self, event):
         """
         Extracts odds from an event. Should be overridden in subclasses.
         """
@@ -119,4 +119,3 @@ class EventScraper:
 
     def get_bookmaker_name(self) -> str:
         return type(self).__name__
-

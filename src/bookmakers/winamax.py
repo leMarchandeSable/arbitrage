@@ -1,23 +1,25 @@
 import datetime
-from src.utils.loader_config import load_config
-from src.utils.class_scrapper import EventScraper
+from utils.loaders import load_config
+from utils.class_scrapper import EventScraper
 
 
-class Pmu(EventScraper):
+class Winamax(EventScraper):
 
     # CSS selectors for class names, grouped for easy maintenance
     CSS = {
         "tag": {
             "event": "div",
+            "event live": "",
             "date": "span",
             "team": "span",
             "odd": "span",
         },
         "class": {
-            "event": "sb-event-list__event sb-event-list__event--desktop",
-            "date": "sb-event-list__event__time",
-            "team": "sb-event-list__competitor sb-event-list__competitor--prematch",
-            "odd": "sb-event-list__selection__outcome-value ng-star-inserted",
+            "event": "sc-gmaIPR hSSQYr",
+            "event live": "",
+            "date": "sc-jNwOwP kIBFoa",
+            "team": "sc-kDrquE",
+            "odd": "sc-fxLEgV bogQto",
         }
     }
 
@@ -118,11 +120,14 @@ class Pmu(EventScraper):
 
 def main():
 
-    config = load_config("../config/bookmaker_config.yml")
-    sport = "NHL"     # "NHL"
+    config = load_config("../../config/bookmaker_config.yml")
+    sport = "football"     # "NHL"
+
+    url = "https://www.winamax.fr/paris-sportifs/sports/1"
+    config["bookmakers"]["Winamax"]["sport"]["football"] = url
 
     # Initialize the scraper
-    scraper = Pmu(config, sport, debug=True)
+    scraper = Winamax(config, sport, debug=True)
     extracted_data = scraper.extract_event_data()
 
     print("\nExtracted Data:")

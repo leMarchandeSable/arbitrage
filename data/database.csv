@@ -1,0 +1,396 @@
+Bookmaker,Date,Start Time (UTC),Home Team Unparse,Away Team Unparse,Home Odd,Draw Odd,Away Odd,scrapping_time,Date Unparse,Sport,Home Team Std,Away Team Std
+Zebet,2024-12-23,2024-12-23T19:00:00Z,NJ Devils,NY Rangers,1.74,4.3,3.55,2024-12-23 13:19:45,,,NJD - New Jersey Devils,NYR - New York Rangers
+Zebet,2024-12-23,2024-12-23T20:00:00Z,TOR MapleLeafs,WIN Jets,2.3,4.0,2.5,2024-12-23 13:19:45,,,TOR - Toronto Maple Leafs,WPG - Winnipeg Jets
+Zebet,2024-12-24,2024-12-24T01:00:00Z,DET Red Wings,STL Blues,2.3,3.95,2.45,2024-12-23 13:19:45,,,DET - Detroit Red Wings,STL - St. Louis Blues
+Zebet,2024-12-24,2024-12-24T01:00:00Z,FLO Panthers,TB Lightning,1.97,4.2,2.9,2024-12-23 13:19:45,,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Zebet,2024-12-24,2024-12-24T01:00:00Z,PIT Penguins,PHI Flyers,2.2,4.05,2.55,2024-12-23 13:19:45,,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Zebet,2024-12-24,2024-12-24T01:00:00Z,BOS Bruins,WAS Capitals,2.15,4.0,2.65,2024-12-23 13:19:45,,,BOS - Boston Bruins,WSH - Washington Capitals
+Zebet,2024-12-24,2024-12-24T01:00:00Z,CLB BJackets,MON Canadiens,2.1,4.1,2.7,2024-12-23 13:19:45,,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Zebet,2024-12-24,2024-12-24T01:30:00Z,NY Islanders,BUF Sabres,1.97,3.95,2.95,2024-12-23 13:19:45,,,NYI - New York Islanders,BUF - Buffalo Sabres
+Zebet,2024-12-24,2024-12-24T02:00:00Z,MIN Wild,CHI Blackhawks,1.62,4.3,4.0,2024-12-23 13:19:45,,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-24,2024-12-24T02:00:00Z,NAS Predators,CAR Hurricanes,2.65,3.95,2.1,2024-12-23 13:19:45,,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Zebet,2024-12-24,2024-12-24T03:00:00Z,VAN Canucks,SJ Sharks,1.58,4.3,4.25,2024-12-23 13:19:45,,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Zebet,2024-12-24,2024-12-24T03:00:00Z,UTA HockeyClub,DAL Stars,3.05,4.05,1.91,2024-12-23 13:19:45,,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Zebet,2024-12-24,2024-12-24T04:00:00Z,VEG GKnights,ANA Ducks,1.47,4.55,5.0,2024-12-23 13:19:45,,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2024-12-23,2024-12-23T19:05:00Z,New Jersey Devils,New York Rangers,1.76,4.4,3.6,2024-12-23 13:26:16,,,NJD - New Jersey Devils,NYR - New York Rangers
+Winamax,2024-12-23,2024-12-23T20:05:00Z,Toronto Maple Leafs,Winnipeg Jets,2.2,3.9,2.4,2024-12-23 13:26:16,,,TOR - Toronto Maple Leafs,WPG - Winnipeg Jets
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Florida Panthers,Tampa Bay Lightning,1.92,4.0,2.85,2024-12-23 13:26:16,,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Pittsburgh Penguins,Philadelphia Flyers,2.15,3.95,2.45,2024-12-23 13:26:16,,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Detroit Red Wings,St. Louis Blues,2.25,3.85,2.4,2024-12-23 13:26:16,,,DET - Detroit Red Wings,STL - St. Louis Blues
+Winamax,2024-12-24,2024-12-24T01:05:00Z,Columbus Blue Jackets,Montreal Canadiens,2.05,4.0,2.6,2024-12-23 13:26:16,,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Winamax,2024-12-24,2024-12-24T01:05:00Z,Boston Bruins,Washington Capitals,2.1,3.9,2.55,2024-12-23 13:26:16,,,BOS - Boston Bruins,WSH - Washington Capitals
+Winamax,2024-12-24,2024-12-24T01:35:00Z,New York Islanders,Buffalo Sabres,1.94,3.9,2.9,2024-12-23 13:26:16,,,NYI - New York Islanders,BUF - Buffalo Sabres
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Minnesota Wild,Chicago Blackhawks,1.6,4.2,3.95,2024-12-23 13:26:16,,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Nashville Predators,Carolina Hurricanes,2.65,3.9,2.05,2024-12-23 13:26:16,,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Vancouver Canucks,San Jose Sharks,1.56,4.2,4.2,2024-12-23 13:26:16,,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Utah Hockey Club,Dallas Stars,3.0,4.0,1.88,2024-12-23 13:26:16,,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Winamax,2024-12-24,2024-12-24T04:05:00Z,Vegas Golden Knights,Anaheim Ducks,1.46,4.4,4.9,2024-12-23 13:26:16,,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2024-12-23,2024-12-23T19:00:00Z,NJ Devils,NY Rangers,1.74,4.3,3.55,2024-12-23 13:26:16,,,NJD - New Jersey Devils,NYR - New York Rangers
+Zebet,2024-12-23,2024-12-23T20:00:00Z,TOR MapleLeafs,WIN Jets,2.3,4.0,2.5,2024-12-23 13:26:16,,,TOR - Toronto Maple Leafs,WPG - Winnipeg Jets
+Zebet,2024-12-24,2024-12-24T01:00:00Z,DET Red Wings,STL Blues,2.3,3.95,2.45,2024-12-23 13:26:16,,,DET - Detroit Red Wings,STL - St. Louis Blues
+Zebet,2024-12-24,2024-12-24T01:00:00Z,FLO Panthers,TB Lightning,1.97,4.2,2.9,2024-12-23 13:26:16,,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Zebet,2024-12-24,2024-12-24T01:00:00Z,PIT Penguins,PHI Flyers,2.2,4.05,2.55,2024-12-23 13:26:16,,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Zebet,2024-12-24,2024-12-24T01:00:00Z,BOS Bruins,WAS Capitals,2.15,4.0,2.65,2024-12-23 13:26:16,,,BOS - Boston Bruins,WSH - Washington Capitals
+Zebet,2024-12-24,2024-12-24T01:00:00Z,CLB BJackets,MON Canadiens,2.1,4.1,2.7,2024-12-23 13:26:16,,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Zebet,2024-12-24,2024-12-24T01:30:00Z,NY Islanders,BUF Sabres,1.97,3.95,2.95,2024-12-23 13:26:16,,,NYI - New York Islanders,BUF - Buffalo Sabres
+Zebet,2024-12-24,2024-12-24T02:00:00Z,MIN Wild,CHI Blackhawks,1.62,4.3,4.0,2024-12-23 13:26:16,,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-24,2024-12-24T02:00:00Z,NAS Predators,CAR Hurricanes,2.7,3.95,2.1,2024-12-23 13:26:16,,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Zebet,2024-12-24,2024-12-24T03:00:00Z,VAN Canucks,SJ Sharks,1.58,4.3,4.25,2024-12-23 13:26:16,,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Zebet,2024-12-24,2024-12-24T03:00:00Z,UTA HockeyClub,DAL Stars,3.05,4.05,1.91,2024-12-23 13:26:16,,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Zebet,2024-12-24,2024-12-24T04:00:00Z,VEG GKnights,ANA Ducks,1.47,4.55,5.0,2024-12-23 13:26:16,,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Florida Panthers,Tampa Bay Lightning,2.0,4.2,2.95,2024-12-23 22:24:16,,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Pittsburgh Penguins,Philadelphia Flyers,2.2,4.1,2.55,2024-12-23 22:24:16,,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Detroit Red Wings,St. Louis Blues,2.35,4.0,2.45,2024-12-23 22:24:16,,,DET - Detroit Red Wings,STL - St. Louis Blues
+Winamax,2024-12-24,2024-12-24T01:05:00Z,Columbus Blue Jackets,Montreal Canadiens,2.1,4.2,2.75,2024-12-23 22:24:16,,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Winamax,2024-12-24,2024-12-24T01:05:00Z,Boston Bruins,Washington Capitals,2.1,3.9,2.55,2024-12-23 22:24:16,,,BOS - Boston Bruins,WSH - Washington Capitals
+Winamax,2024-12-24,2024-12-24T01:35:00Z,New York Islanders,Buffalo Sabres,1.96,4.1,3.1,2024-12-23 22:24:16,,,NYI - New York Islanders,BUF - Buffalo Sabres
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Minnesota Wild,Chicago Blackhawks,1.7,4.3,3.85,2024-12-23 22:24:16,,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Nashville Predators,Carolina Hurricanes,2.6,4.0,2.25,2024-12-23 22:24:16,,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Vancouver Canucks,San Jose Sharks,1.62,4.5,4.2,2024-12-23 22:24:16,,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Utah Hockey Club,Dallas Stars,3.0,4.1,1.98,2024-12-23 22:24:16,,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Winamax,2024-12-24,2024-12-24T04:05:00Z,Vegas Golden Knights,Anaheim Ducks,1.54,4.6,4.9,2024-12-23 22:24:16,,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2024-12-24,2024-12-24T01:00:00Z,PIT Penguins,PHI Flyers,2.2,4.1,2.55,2024-12-23 22:24:16,,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Zebet,2024-12-24,2024-12-24T01:00:00Z,BOS Bruins,WAS Capitals,2.15,4.0,2.65,2024-12-23 22:24:16,,,BOS - Boston Bruins,WSH - Washington Capitals
+Zebet,2024-12-24,2024-12-24T01:00:00Z,CLB BJackets,MON Canadiens,2.1,4.15,2.7,2024-12-23 22:24:16,,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Zebet,2024-12-24,2024-12-24T01:00:00Z,DET Red Wings,STL Blues,2.35,3.95,2.45,2024-12-23 22:24:16,,,DET - Detroit Red Wings,STL - St. Louis Blues
+Zebet,2024-12-24,2024-12-24T01:00:00Z,FLO Panthers,TB Lightning,1.97,4.15,2.9,2024-12-23 22:24:16,,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Zebet,2024-12-24,2024-12-24T01:30:00Z,NY Islanders,BUF Sabres,1.94,4.05,3.05,2024-12-23 22:24:16,,,NYI - New York Islanders,BUF - Buffalo Sabres
+Zebet,2024-12-24,2024-12-24T02:00:00Z,MIN Wild,CHI Blackhawks,1.69,4.25,3.8,2024-12-23 22:24:16,,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-24,2024-12-24T02:00:00Z,NAS Predators,CAR Hurricanes,2.6,3.95,2.2,2024-12-23 22:24:16,,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Zebet,2024-12-24,2024-12-24T03:00:00Z,VAN Canucks,SJ Sharks,1.61,4.45,4.15,2024-12-23 22:24:16,,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Zebet,2024-12-24,2024-12-24T03:00:00Z,UTA HockeyClub,DAL Stars,3.0,4.1,1.96,2024-12-23 22:24:16,,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Zebet,2024-12-24,2024-12-24T04:00:00Z,VEG GKnights,ANA Ducks,1.52,4.5,4.75,2024-12-23 22:24:16,,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Florida Panthers,Tampa Bay Lightning,1.94,4.3,3.05,2024-12-24 00:34:40,Aujourd’hui à 01:00,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Pittsburgh Penguins,Philadelphia Flyers,2.3,4.1,2.5,2024-12-24 00:34:40,Aujourd’hui à 01:00,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Columbus Blue Jackets,Montreal Canadiens,2.15,4.2,2.7,2024-12-24 00:34:40,Aujourd’hui à 01:00,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Winamax,2024-12-24,2024-12-24T01:00:00Z,Detroit Red Wings,St. Louis Blues,2.35,4.0,2.45,2024-12-24 00:34:40,Aujourd’hui à 01:00,,DET - Detroit Red Wings,STL - St. Louis Blues
+Winamax,2024-12-24,2024-12-24T01:05:00Z,Boston Bruins,Washington Capitals,2.1,4.1,2.8,2024-12-24 00:34:40,Aujourd’hui à 01:05,,BOS - Boston Bruins,WSH - Washington Capitals
+Winamax,2024-12-24,2024-12-24T01:35:00Z,New York Islanders,Buffalo Sabres,1.96,4.1,3.1,2024-12-24 00:34:40,Aujourd’hui à 01:35,,NYI - New York Islanders,BUF - Buffalo Sabres
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Minnesota Wild,Chicago Blackhawks,1.7,4.3,3.85,2024-12-24 00:34:40,Aujourd’hui à 02:05,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-24,2024-12-24T02:05:00Z,Nashville Predators,Carolina Hurricanes,2.6,4.0,2.25,2024-12-24 00:34:40,Aujourd’hui à 02:05,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Vancouver Canucks,San Jose Sharks,1.62,4.5,4.2,2024-12-24 00:34:40,Aujourd’hui à 03:05,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Winamax,2024-12-24,2024-12-24T03:05:00Z,Utah Hockey Club,Dallas Stars,3.15,4.2,1.92,2024-12-24 00:34:40,Aujourd’hui à 03:05,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Winamax,2024-12-24,2024-12-24T04:05:00Z,Vegas Golden Knights,Anaheim Ducks,1.54,4.6,4.9,2024-12-24 00:34:40,Aujourd’hui à 04:05,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2024-12-24,2024-12-24T01:00:00Z,PIT Penguins,PHI Flyers,2.3,4.0,2.45,2024-12-24 00:34:40,À 01h00,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Zebet,2024-12-24,2024-12-24T01:00:00Z,BOS Bruins,WAS Capitals,2.1,4.0,2.8,2024-12-24 00:34:40,À 01h00,,BOS - Boston Bruins,WSH - Washington Capitals
+Zebet,2024-12-24,2024-12-24T01:00:00Z,CLB BJackets,MON Canadiens,2.1,4.1,2.65,2024-12-24 00:34:40,À 01h00,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Zebet,2024-12-24,2024-12-24T01:00:00Z,DET Red Wings,STL Blues,2.35,3.95,2.45,2024-12-24 00:34:40,À 01h00,,DET - Detroit Red Wings,STL - St. Louis Blues
+Zebet,2024-12-24,2024-12-24T01:00:00Z,FLO Panthers,TB Lightning,1.92,4.2,3.0,2024-12-24 00:34:40,À 01h00,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Zebet,2024-12-24,2024-12-24T01:30:00Z,NY Islanders,BUF Sabres,1.94,4.05,3.05,2024-12-24 00:34:40,À 01h30,,NYI - New York Islanders,BUF - Buffalo Sabres
+Zebet,2024-12-24,2024-12-24T02:00:00Z,MIN Wild,CHI Blackhawks,1.7,4.25,3.75,2024-12-24 00:34:40,À 02h00,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-24,2024-12-24T02:00:00Z,NAS Predators,CAR Hurricanes,2.55,4.0,2.2,2024-12-24 00:34:40,À 02h00,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Zebet,2024-12-24,2024-12-24T03:00:00Z,VAN Canucks,SJ Sharks,1.61,4.45,4.1,2024-12-24 00:34:40,À 03h00,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Zebet,2024-12-24,2024-12-24T03:00:00Z,UTA HockeyClub,DAL Stars,3.1,4.15,1.89,2024-12-24 00:34:40,À 03h00,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Zebet,2024-12-24,2024-12-24T04:00:00Z,VEG GKnights,ANA Ducks,1.52,4.5,4.75,2024-12-24 00:34:40,À 04h00,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Netbet,,,Boston Bruins,Washington Capitals,2.12,4.0,2.7,2024-12-24 00:36:29, LIVE dans 25 min,,BOS - Boston Bruins,WSH - Washington Capitals
+Netbet,,,Columbus Blue Jackets,Montreal Canadiens,2.15,4.1,2.6,2024-12-24 00:36:29, LIVE dans 25 min,,CBJ - Columbus Blue Jackets,MTL - Montreal Canadiens
+Netbet,,,Detroit Red Wings,St. Louis Blues,2.35,4.0,2.42,2024-12-24 00:36:29, LIVE dans 25 min,,DET - Detroit Red Wings,STL - St. Louis Blues
+Netbet,,,Florida Panthers,Tampa Bay Lightning,1.95,4.1,2.95,2024-12-24 00:36:29, LIVE dans 25 min,,FLA - Florida Panthers,TBL - Tampa Bay Lightning
+Netbet,,,Pittsburgh Penguins,Philadelphia Flyers,2.35,4.0,2.37,2024-12-24 00:36:29, LIVE dans 25 min,,PIT - Pittsburgh Penguins,PHI - Philadelphia Flyers
+Netbet,,,New York Islanders,Buffalo Sabres,1.95,4.1,3.0,2024-12-24 00:36:29, LIVE dans 54 min,,NYI - New York Islanders,BUF - Buffalo Sabres
+Netbet,,,Minnesota Wild,Chicago Blackhawks,1.68,4.3,3.75,2024-12-24 00:36:29,mar. 24 déc. 02:00,,MIN - Minnesota Wild,CHI - Chicago Black Hawks/Blackhawks
+Netbet,,,Nashville Predators,Carolina Hurricanes,2.57,4.0,2.2,2024-12-24 00:36:29,mar. 24 déc. 02:00,,NSH - Nashville Predators,CAR - Carolina Hurricanes
+Netbet,,,Utah Hockey Club,Dallas Stars,3.1,4.2,1.88,2024-12-24 00:36:29,mar. 24 déc. 03:00,,UTA - Utah Hockey Club,DAL - Dallas Stars
+Netbet,,,Vancouver Canucks,San Jose Sharks,1.6,4.5,4.1,2024-12-24 00:36:29,mar. 24 déc. 03:00,,VAN - Vancouver Canucks,SJS - San Jose Sharks
+Netbet,,,Vegas Golden Knights,Anaheim Ducks,1.48,4.8,4.6,2024-12-24 00:36:29,mar. 24 déc. 04:00,,VGK - Vegas Golden Knights,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2024-12-25,2024-12-25T01:00:00Z,New Jersey Devils,Carolina Hurricanes,2.15,3.85,2.45,2024-12-24 10:26:53,samedi à 01:00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Winamax,2024-12-25,2024-12-25T01:00:00Z,Buffalo Sabres,Chicago Blackhawks,1.88,3.95,2.9,2024-12-24 10:26:53,samedi à 01:00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-25,2024-12-25T01:00:00Z,Columbus Blue Jackets,Boston Bruins,2.95,3.95,1.88,2024-12-24 10:26:53,samedi à 01:00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Winamax,2024-12-25,2024-12-25T01:00:00Z,Detroit Red Wings,Toronto Maple Leafs,2.9,4.1,1.84,2024-12-24 10:26:53,samedi à 01:00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Winamax,2024-12-25,2024-12-25T02:00:00Z,Dallas Stars,Minnesota Wild,1.9,4.1,2.8,2024-12-24 10:26:53,samedi à 02:00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Winamax,2024-12-25,2024-12-25T02:00:00Z,St. Louis Blues,Nashville Predators,2.35,3.8,2.25,2024-12-24 10:26:53,samedi à 02:00,,STL - St. Louis Blues,NSH - Nashville Predators
+Winamax,2024-12-25,2024-12-25T03:30:00Z,Utah Hockey Club,Colorado Avalanche,2.65,3.95,2.0,2024-12-24 10:26:53,samedi à 03:30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Winamax,2024-12-25,2024-12-25T04:30:00Z,San Jose Sharks,Vegas Golden Knights,3.5,4.1,1.68,2024-12-24 10:26:53,samedi à 04:30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Zebet,2024-12-28,2024-12-28T01:00:00Z,BUF Sabres,CHI Blackhawks,1.92,4.1,3.0,2024-12-24 10:26:53,Le 28/12 à 01h00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-28,2024-12-28T01:00:00Z,CLB BJackets,BOS Bruins,3.0,4.05,1.92,2024-12-24 10:26:53,Le 28/12 à 01h00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Zebet,2024-12-28,2024-12-28T01:00:00Z,DET Red Wings,TOR MapleLeafs,3.0,4.25,1.89,2024-12-24 10:26:53,Le 28/12 à 01h00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Zebet,2024-12-28,2024-12-28T01:00:00Z,NJ Devils,CAR Hurricanes,2.25,3.95,2.5,2024-12-24 10:26:53,Le 28/12 à 01h00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Zebet,2024-12-28,2024-12-28T02:00:00Z,DAL Stars,MIN Wild,1.93,4.2,2.9,2024-12-24 10:26:53,Le 28/12 à 02h00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Zebet,2024-12-28,2024-12-28T02:00:00Z,STL Blues,NAS Predators,2.45,3.9,2.3,2024-12-24 10:26:53,Le 28/12 à 02h00,,STL - St. Louis Blues,NSH - Nashville Predators
+Zebet,2024-12-28,2024-12-28T03:30:00Z,UTA HockeyClub,CLR Avalanche,2.75,4.1,2.05,2024-12-24 10:26:53,Le 28/12 à 03h30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Zebet,2024-12-28,2024-12-28T04:30:00Z,SJ Sharks,VEG GKnights,3.6,4.25,1.7,2024-12-24 10:26:53,Le 28/12 à 04h30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Winamax,2024-12-27,2024-12-27T01:00:00Z,New Jersey Devils,Carolina Hurricanes,2.15,3.9,2.45,2024-12-25 11:02:10,samedi à 01:00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Columbus Blue Jackets,Boston Bruins,2.85,3.95,1.9,2024-12-25 11:02:10,samedi à 01:00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Detroit Red Wings,Toronto Maple Leafs,2.8,3.95,1.92,2024-12-25 11:02:10,samedi à 01:00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Buffalo Sabres,Chicago Blackhawks,1.82,4.0,3.05,2024-12-25 11:02:10,samedi à 01:00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-27,2024-12-27T02:00:00Z,Dallas Stars,Minnesota Wild,1.88,4.0,2.9,2024-12-25 11:02:10,samedi à 02:00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Winamax,2024-12-27,2024-12-27T02:00:00Z,St. Louis Blues,Nashville Predators,2.45,3.8,2.2,2024-12-25 11:02:10,samedi à 02:00,,STL - St. Louis Blues,NSH - Nashville Predators
+Winamax,2024-12-27,2024-12-27T03:30:00Z,Utah Hockey Club,Colorado Avalanche,2.55,3.95,2.05,2024-12-25 11:02:10,samedi à 03:30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Winamax,2024-12-27,2024-12-27T04:30:00Z,San Jose Sharks,Vegas Golden Knights,3.6,4.2,1.64,2024-12-25 11:02:10,samedi à 04:30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Zebet,2024-12-28,2024-12-28T01:00:00Z,BUF Sabres,CHI Blackhawks,1.85,4.15,3.15,2024-12-25 11:02:10,Le 28/12 à 01h00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-28,2024-12-28T01:00:00Z,CLB BJackets,BOS Bruins,2.95,4.05,1.94,2024-12-25 11:02:10,Le 28/12 à 01h00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Zebet,2024-12-28,2024-12-28T01:00:00Z,DET Red Wings,TOR MapleLeafs,2.9,4.05,1.96,2024-12-25 11:02:10,Le 28/12 à 01h00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Zebet,2024-12-28,2024-12-28T01:00:00Z,NJ Devils,CAR Hurricanes,2.2,4.0,2.5,2024-12-25 11:02:10,Le 28/12 à 01h00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Zebet,2024-12-28,2024-12-28T02:00:00Z,DAL Stars,MIN Wild,1.91,4.15,3.0,2024-12-25 11:02:10,Le 28/12 à 02h00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Zebet,2024-12-28,2024-12-28T02:00:00Z,STL Blues,NAS Predators,2.5,3.9,2.25,2024-12-25 11:02:10,Le 28/12 à 02h00,,STL - St. Louis Blues,NSH - Nashville Predators
+Zebet,2024-12-28,2024-12-28T03:30:00Z,UTA HockeyClub,CLR Avalanche,2.65,4.05,2.1,2024-12-25 11:02:10,Le 28/12 à 03h30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Zebet,2024-12-28,2024-12-28T04:30:00Z,SJ Sharks,VEG GKnights,3.7,4.3,1.67,2024-12-25 11:02:10,Le 28/12 à 04h30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Winamax,2024-12-27,2024-12-27T01:00:00Z,New Jersey Devils,Carolina Hurricanes,2.15,3.9,2.45,2024-12-25 11:42:11,samedi à 01:00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Columbus Blue Jackets,Boston Bruins,2.85,3.95,1.9,2024-12-25 11:42:11,samedi à 01:00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Detroit Red Wings,Toronto Maple Leafs,2.85,3.95,1.92,2024-12-25 11:42:11,samedi à 01:00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Winamax,2024-12-27,2024-12-27T01:00:00Z,Buffalo Sabres,Chicago Blackhawks,1.82,4.0,3.05,2024-12-25 11:42:11,samedi à 01:00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2024-12-27,2024-12-27T02:00:00Z,Dallas Stars,Minnesota Wild,1.88,4.0,2.9,2024-12-25 11:42:11,samedi à 02:00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Winamax,2024-12-27,2024-12-27T02:00:00Z,St. Louis Blues,Nashville Predators,2.45,3.8,2.2,2024-12-25 11:42:11,samedi à 02:00,,STL - St. Louis Blues,NSH - Nashville Predators
+Winamax,2024-12-27,2024-12-27T03:30:00Z,Utah Hockey Club,Colorado Avalanche,2.55,3.95,2.05,2024-12-25 11:42:11,samedi à 03:30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Winamax,2024-12-27,2024-12-27T04:30:00Z,San Jose Sharks,Vegas Golden Knights,3.6,4.2,1.64,2024-12-25 11:42:11,samedi à 04:30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Zebet,2024-12-28,2024-12-28T01:00:00Z,BUF Sabres,CHI Blackhawks,1.85,4.15,3.15,2024-12-25 11:42:11,Le 28/12 à 01h00,,BUF - Buffalo Sabres,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2024-12-28,2024-12-28T01:00:00Z,CLB BJackets,BOS Bruins,2.95,4.05,1.94,2024-12-25 11:42:11,Le 28/12 à 01h00,,CBJ - Columbus Blue Jackets,BOS - Boston Bruins
+Zebet,2024-12-28,2024-12-28T01:00:00Z,DET Red Wings,TOR MapleLeafs,2.9,4.05,1.96,2024-12-25 11:42:11,Le 28/12 à 01h00,,DET - Detroit Red Wings,TOR - Toronto Maple Leafs
+Zebet,2024-12-28,2024-12-28T01:00:00Z,NJ Devils,CAR Hurricanes,2.2,4.0,2.5,2024-12-25 11:42:11,Le 28/12 à 01h00,,NJD - New Jersey Devils,CAR - Carolina Hurricanes
+Zebet,2024-12-28,2024-12-28T02:00:00Z,DAL Stars,MIN Wild,1.91,4.15,3.0,2024-12-25 11:42:11,Le 28/12 à 02h00,,DAL - Dallas Stars,MIN - Minnesota Wild
+Zebet,2024-12-28,2024-12-28T02:00:00Z,STL Blues,NAS Predators,2.5,3.9,2.25,2024-12-25 11:42:11,Le 28/12 à 02h00,,STL - St. Louis Blues,NSH - Nashville Predators
+Zebet,2024-12-28,2024-12-28T03:30:00Z,UTA HockeyClub,CLR Avalanche,2.65,4.05,2.1,2024-12-25 11:42:11,Le 28/12 à 03h30,,UTA - Utah Hockey Club,COL - Colorado Avalanche
+Zebet,2024-12-28,2024-12-28T04:30:00Z,SJ Sharks,VEG GKnights,3.7,4.3,1.67,2024-12-25 11:42:11,Le 28/12 à 04h30,,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Winamax,2025-01-07,2025-01-07T01:05:00Z,Buffalo Sabres,Washington Capitals,2.75,3.95,1.98,2025-01-06 11:22:44,Demain à 01:05,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Winamax,2025-01-07,2025-01-07T01:35:00Z,Montreal Canadiens,Vancouver Canucks,2.6,3.9,2.1,2025-01-06 11:22:44,Demain à 01:35,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Winamax,2025-01-07,2025-01-07T03:05:00Z,Colorado Avalanche,Florida Panthers,2.15,3.9,2.5,2025-01-06 11:22:44,Demain à 03:05,,COL - Colorado Avalanche,FLA - Florida Panthers
+Winamax,2025-01-07,2025-01-07T04:05:00Z,Seattle Kraken,New Jersey Devils,3.3,4.0,1.76,2025-01-06 11:22:44,Demain à 04:05,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Zebet,2025-01-07,2025-01-07T01:00:00Z,BUF Sabres,WAS Capitals,2.85,4.1,2.0,2025-01-06 11:22:44,Demain à 01h00,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Zebet,2025-01-07,2025-01-07T01:30:00Z,MON Canadiens,VAN Canucks,2.7,4.0,2.15,2025-01-06 11:22:44,Demain à 01h30,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Zebet,2025-01-07,2025-01-07T03:00:00Z,CLR Avalanche,FLO Panthers,2.2,4.05,2.6,2025-01-06 11:22:44,Demain à 03h00,,COL - Colorado Avalanche,FLA - Florida Panthers
+Zebet,2025-01-07,2025-01-07T04:00:00Z,SEA Kraken,NJ Devils,3.4,4.2,1.8,2025-01-06 11:22:44,Demain à 04h00,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Netbet,,,Buffalo Sabres,Washington Capitals,2.82,4.1,2.02,2025-01-06 11:23:22,mar. 7 janv. 01:00,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Netbet,,,Montreal Canadiens,Vancouver Canucks,2.65,4.0,2.15,2025-01-06 11:23:22,mar. 7 janv. 01:30,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Netbet,,,Colorado Avalanche,Florida Panthers,2.2,4.0,2.57,2025-01-06 11:23:22,mar. 7 janv. 03:00,,COL - Colorado Avalanche,FLA - Florida Panthers
+Netbet,,,Seattle Kraken,New Jersey Devils,3.45,4.2,1.77,2025-01-06 11:23:22,mar. 7 janv. 04:00,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Winamax,2025-01-07,2025-01-07T01:05:00Z,Buffalo Sabres,Washington Capitals,2.8,4.0,1.96,2025-01-06 13:18:30,Demain à 01:05,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Winamax,2025-01-07,2025-01-07T01:35:00Z,Montreal Canadiens,Vancouver Canucks,2.6,3.9,2.1,2025-01-06 13:18:30,Demain à 01:35,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Winamax,2025-01-07,2025-01-07T03:05:00Z,Colorado Avalanche,Florida Panthers,2.15,3.9,2.5,2025-01-06 13:18:30,Demain à 03:05,,COL - Colorado Avalanche,FLA - Florida Panthers
+Winamax,2025-01-07,2025-01-07T04:05:00Z,Seattle Kraken,New Jersey Devils,3.25,4.0,1.76,2025-01-06 13:18:30,Demain à 04:05,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Zebet,2025-01-07,2025-01-07T01:00:00Z,BUF Sabres,WAS Capitals,2.9,4.15,2.05,2025-01-06 13:18:30,Demain à 01h00,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Zebet,2025-01-07,2025-01-07T01:30:00Z,MON Canadiens,VAN Canucks,2.65,4.0,2.15,2025-01-06 13:18:30,Demain à 01h30,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Zebet,2025-01-07,2025-01-07T03:00:00Z,CLR Avalanche,FLO Panthers,2.2,4.0,2.6,2025-01-06 13:18:30,Demain à 03h00,,COL - Colorado Avalanche,FLA - Florida Panthers
+Zebet,2025-01-07,2025-01-07T04:00:00Z,SEA Kraken,NJ Devils,3.35,4.2,1.8,2025-01-06 13:18:30,Demain à 04h00,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Netbet,,,Buffalo Sabres,Washington Capitals,2.87,4.1,2.0,2025-01-06 13:19:31,mar. 7 janv. 01:00,,BUF - Buffalo Sabres,WSH - Washington Capitals
+Netbet,,,Montreal Canadiens,Vancouver Canucks,2.65,4.0,2.15,2025-01-06 13:19:31,mar. 7 janv. 01:30,,MTL - Montreal Canadiens,VAN - Vancouver Canucks
+Netbet,,,Colorado Avalanche,Florida Panthers,2.2,4.0,2.57,2025-01-06 13:19:31,mar. 7 janv. 03:00,,COL - Colorado Avalanche,FLA - Florida Panthers
+Netbet,,,Seattle Kraken,New Jersey Devils,3.4,4.2,1.78,2025-01-06 13:19:31,mar. 7 janv. 04:00,,SEA - Seattle Kraken,NJD - New Jersey Devils
+Winamax,2025-01-08,2025-01-08T01:00:00Z,Boston Bruins,Edmonton Oilers,2.9,4.1,2.05,,,NHL,BOS - Boston Bruins,EDM - Edmonton Oilers
+Winamax,2025-01-08,2025-01-08T01:00:00Z,Detroit Red Wings,Ottawa Senators,2.55,4.0,2.25,,,NHL,DET - Detroit Red Wings,OTT - Ottawa Senators
+Winamax,2025-01-08,2025-01-08T01:00:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2.0,4.2,2.95,,,NHL,PIT - Pittsburgh Penguins,CBJ - Columbus Blue Jackets
+Winamax,2025-01-08,2025-01-08T01:00:00Z,Tampa Bay Lightning,Carolina Hurricanes,2.55,4.0,2.3,,,NHL,TBL - Tampa Bay Lightning,CAR - Carolina Hurricanes
+Winamax,2025-01-08,2025-01-08T01:00:00Z,New York Rangers,Dallas Stars,3.1,4.2,1.92,,,NHL,NYR - New York Rangers,DAL - Dallas Stars
+Winamax,2025-01-08,2025-01-08T01:30:00Z,Philadelphia Flyers,Toronto Maple Leafs,2.85,4.0,2.05,,,NHL,PHI - Philadelphia Flyers,TOR - Toronto Maple Leafs
+Winamax,2025-01-08,2025-01-08T02:00:00Z,Winnipeg Jets,Nashville Predators,1.98,4.1,3.05,,,NHL,WPG - Winnipeg Jets,NSH - Nashville Predators
+Winamax,2025-01-08,2025-01-08T02:00:00Z,Minnesota Wild,St. Louis Blues,2.3,3.95,2.55,,,NHL,MIN - Minnesota Wild,STL - St. Louis Blues
+Winamax,2025-01-08,2025-01-08T04:00:00Z,Anaheim Ducks,Calgary Flames,2.9,4.2,2.0,,,NHL,ANA - Mighty Ducks of Anaheim/Anaheim Ducks,CGY - Calgary Flames
+Winamax,2025-01-08,2025-01-08T04:30:00Z,San Jose Sharks,Vegas Golden Knights,4.1,4.1,1.58,,,NHL,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Winamax,2025-01-13,2025-01-13T01:30:00Z,Chicago Blackhawks,Colorado Avalanche,3.8,4.2,1.6,,,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Winamax,2025-01-13,2025-01-13T01:30:00Z,Washington Capitals,Vancouver Canucks,1.86,3.95,3.0,,,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Winamax,2025-01-13,2025-01-13T04:00:00Z,Utah Hockey Club,Florida Panthers,2.6,3.85,2.05,,,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Winamax,2025-01-13,2025-01-13T04:30:00Z,Los Angeles Kings,Calgary Flames,1.64,4.0,3.65,,,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Zebet,2025-01-08,2025-01-08T01:00:00Z,TB Lightning,CAR Hurricanes,2.55,4.05,2.3,,,NHL,TBL - Tampa Bay Lightning,CAR - Carolina Hurricanes
+Zebet,2025-01-08,2025-01-08T01:00:00Z,PIT Penguins,CLB BJackets,2.0,4.2,3.0,,,NHL,PIT - Pittsburgh Penguins,CBJ - Columbus Blue Jackets
+Zebet,2025-01-08,2025-01-08T01:00:00Z,DET Red Wings,OTT Senators,2.6,4.0,2.3,,,NHL,DET - Detroit Red Wings,OTT - Ottawa Senators
+Zebet,2025-01-08,2025-01-08T01:00:00Z,BOS Bruins,EDM Oilers,2.95,4.1,2.05,,,NHL,BOS - Boston Bruins,EDM - Edmonton Oilers
+Zebet,2025-01-08,2025-01-08T01:00:00Z,NY Rangers,DAL Stars,3.15,4.3,1.93,,,NHL,NYR - New York Rangers,DAL - Dallas Stars
+Zebet,2025-01-08,2025-01-08T01:30:00Z,PHI Flyers,TOR MapleLeafs,2.85,4.1,2.1,,,NHL,PHI - Philadelphia Flyers,TOR - Toronto Maple Leafs
+Zebet,2025-01-08,2025-01-08T02:00:00Z,WIN Jets,NAS Predators,1.97,4.1,3.05,,,NHL,WPG - Winnipeg Jets,NSH - Nashville Predators
+Zebet,2025-01-08,2025-01-08T02:00:00Z,MIN Wild,STL Blues,2.3,3.9,2.55,,,NHL,MIN - Minnesota Wild,STL - St. Louis Blues
+Zebet,2025-01-08,2025-01-08T04:00:00Z,ANA Ducks,CAL Flames,2.9,4.15,2.05,,,NHL,ANA - Mighty Ducks of Anaheim/Anaheim Ducks,CGY - Calgary Flames
+Zebet,2025-01-08,2025-01-08T04:30:00Z,SJ Sharks,VEG GKnights,4.25,4.35,1.63,,,NHL,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Zebet,2025-01-09,2025-01-09T01:30:00Z,CHI Blackhawks,CLR Avalanche,3.9,4.35,1.63,,,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Zebet,2025-01-09,2025-01-09T01:30:00Z,WAS Capitals,VAN Canucks,1.89,4.05,3.05,,,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Zebet,2025-01-09,2025-01-09T04:00:00Z,UTA HockeyClub,FLO Panthers,2.65,3.95,2.15,,,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Zebet,2025-01-09,2025-01-09T04:30:00Z,LA Kings,CAL Flames,1.68,4.2,3.75,,,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Netbet,,,Boston Bruins,Edmonton Oilers,2.85,4.1,2.02,,,NHL,BOS - Boston Bruins,EDM - Edmonton Oilers
+Netbet,,,Detroit Red Wings,Ottawa Senators,2.5,4.0,2.25,,,NHL,DET - Detroit Red Wings,OTT - Ottawa Senators
+Netbet,,,New York Rangers,Dallas Stars,3.15,4.2,1.87,,,NHL,NYR - New York Rangers,DAL - Dallas Stars
+Netbet,,,Pittsburgh Penguins,Columbus Blue Jackets,1.98,4.2,2.9,,,NHL,PIT - Pittsburgh Penguins,CBJ - Columbus Blue Jackets
+Netbet,,,Tampa Bay Lightning,Carolina Hurricanes,2.5,3.95,2.27,,,NHL,TBL - Tampa Bay Lightning,CAR - Carolina Hurricanes
+Netbet,,,Philadelphia Flyers,Toronto Maple Leafs,2.8,4.0,2.05,,,NHL,PHI - Philadelphia Flyers,TOR - Toronto Maple Leafs
+Netbet,,,Minnesota Wild,St. Louis Blues,2.22,3.9,2.6,,,NHL,MIN - Minnesota Wild,STL - St. Louis Blues
+Netbet,,,Winnipeg Jets,Nashville Predators,1.97,4.1,2.95,,,NHL,WPG - Winnipeg Jets,NSH - Nashville Predators
+Netbet,,,Anaheim Ducks,Calgary Flames,2.82,4.1,2.05,,,NHL,ANA - Mighty Ducks of Anaheim/Anaheim Ducks,CGY - Calgary Flames
+Netbet,,,San Jose Sharks,Vegas Golden Knights,4.2,4.4,1.58,,,NHL,SJS - San Jose Sharks,VGK - Vegas Golden Knights
+Winamax,2025-01-09,2025-01-09T01:30:00Z,Washington Capitals,Vancouver Canucks,1.84,4.2,3.35,,,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Winamax,2025-01-09,2025-01-09T01:30:00Z,Chicago Blackhawks,Colorado Avalanche,4.0,4.5,1.64,,,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Winamax,2025-01-09,2025-01-09T04:00:00Z,Utah Hockey Club,Florida Panthers,2.6,3.9,2.1,,,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Winamax,2025-01-09,2025-01-09T04:30:00Z,Los Angeles Kings,Calgary Flames,1.62,4.2,3.85,,,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Zebet,2025-01-09,2025-01-09T01:30:00Z,CHI Blackhawks,CLR Avalanche,4.0,4.5,1.64,,,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Zebet,2025-01-09,2025-01-09T01:30:00Z,WAS Capitals,VAN Canucks,1.84,4.2,3.35,,,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Zebet,2025-01-09,2025-01-09T04:00:00Z,UTA HockeyClub,FLO Panthers,2.7,4.0,2.15,,,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Zebet,2025-01-09,2025-01-09T04:30:00Z,LA Kings,CAL Flames,1.65,4.3,3.95,,,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Netbet,,,Chicago Blackhawks,Colorado Avalanche,4.0,4.4,1.63,,,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Netbet,,,Washington Capitals,Vancouver Canucks,1.81,4.2,3.3,,,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Netbet,,,Utah Hockey Club,Florida Panthers,2.7,4.0,2.1,,,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Netbet,,,Los Angeles Kings,Calgary Flames,1.65,4.3,3.9,,,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Winamax,2025-01-09,2025-01-09T01:30:00Z,Washington Capitals,Vancouver Canucks,1.84,4.2,3.35,2025-01-08 16:08:57,Demain à 01:30,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Winamax,2025-01-09,2025-01-09T01:30:00Z,Chicago Blackhawks,Colorado Avalanche,4.0,4.5,1.64,2025-01-08 16:08:57,Demain à 01:30,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Winamax,2025-01-09,2025-01-09T04:00:00Z,Utah Hockey Club,Florida Panthers,2.6,3.9,2.1,2025-01-08 16:08:57,Demain à 04:00,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Winamax,2025-01-09,2025-01-09T04:30:00Z,Los Angeles Kings,Calgary Flames,1.62,4.2,3.85,2025-01-08 16:08:57,Demain à 04:30,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Zebet,2025-01-09,2025-01-09T01:30:00Z,CHI Blackhawks,CLR Avalanche,4.0,4.5,1.64,2025-01-08 16:08:57,Demain à 01h30,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Zebet,2025-01-09,2025-01-09T01:30:00Z,WAS Capitals,VAN Canucks,1.84,4.2,3.35,2025-01-08 16:08:57,Demain à 01h30,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Zebet,2025-01-09,2025-01-09T04:00:00Z,UTA HockeyClub,FLO Panthers,2.7,4.05,2.15,2025-01-08 16:08:57,Demain à 04h00,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Zebet,2025-01-09,2025-01-09T04:30:00Z,LA Kings,CAL Flames,1.65,4.3,3.95,2025-01-08 16:08:57,Demain à 04h30,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Netbet,,,Chicago Blackhawks,Colorado Avalanche,4.0,4.4,1.63,2025-01-08 16:09:17,jeu. 9 janv. 01:30,NHL,CHI - Chicago Black Hawks/Blackhawks,COL - Colorado Avalanche
+Netbet,,,Washington Capitals,Vancouver Canucks,1.8,4.2,3.35,2025-01-08 16:09:17,jeu. 9 janv. 01:30,NHL,WSH - Washington Capitals,VAN - Vancouver Canucks
+Netbet,,,Utah Hockey Club,Florida Panthers,2.7,4.0,2.1,2025-01-08 16:09:17,jeu. 9 janv. 04:00,NHL,UTA - Utah Hockey Club,FLA - Florida Panthers
+Netbet,,,Los Angeles Kings,Calgary Flames,1.65,4.3,3.9,2025-01-08 16:09:18,jeu. 9 janv. 04:30,NHL,LAK - Los Angeles Kings,CGY - Calgary Flames
+Winamax,2025-01-10,2025-01-10T01:00:00Z,New York Rangers,New Jersey Devils,3.1,4.0,1.84,2025-01-09 10:23:26,Demain à 01:00,NHL,NYR - New York Rangers,NJD - New Jersey Devils
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Philadelphia Flyers,Dallas Stars,3.0,4.0,1.88,2025-01-09 10:23:26,Demain à 01:00,NHL,PHI - Philadelphia Flyers,DAL - Dallas Stars
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Pittsburgh Penguins,Edmonton Oilers,3.25,4.1,1.76,2025-01-09 10:23:26,Demain à 01:00,NHL,PIT - Pittsburgh Penguins,EDM - Edmonton Oilers
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Columbus Blue Jackets,Seattle Kraken,2.35,3.85,2.3,2025-01-09 10:23:26,Demain à 01:00,NHL,CBJ - Columbus Blue Jackets,SEA - Seattle Kraken
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Tampa Bay Lightning,Boston Bruins,1.92,3.9,2.95,2025-01-09 10:23:26,Demain à 01:00,NHL,TBL - Tampa Bay Lightning,BOS - Boston Bruins
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Ottawa Senators,Buffalo Sabres,1.96,3.85,2.85,2025-01-09 10:23:26,Demain à 01:00,NHL,OTT - Ottawa Senators,BUF - Buffalo Sabres
+Winamax,2025-01-10,2025-01-10T01:30:00Z,Carolina Hurricanes,Toronto Maple Leafs,1.9,3.85,3.0,2025-01-09 10:23:26,Demain à 01:30,NHL,CAR - Carolina Hurricanes,TOR - Toronto Maple Leafs
+Winamax,2025-01-10,2025-01-10T02:00:00Z,St. Louis Blues,Anaheim Ducks,1.76,4.0,3.35,2025-01-09 10:23:26,Demain à 02:00,NHL,STL - St. Louis Blues,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2025-01-10,2025-01-10T02:00:00Z,Minnesota Wild,Colorado Avalanche,2.6,3.85,2.1,2025-01-09 10:23:26,Demain à 02:00,NHL,MIN - Minnesota Wild,COL - Colorado Avalanche
+Winamax,2025-01-10,2025-01-10T04:00:00Z,Vegas Golden Knights,New York Islanders,1.84,4.0,3.1,2025-01-09 10:23:26,Demain à 04:00,NHL,VGK - Vegas Golden Knights,NYI - New York Islanders
+Zebet,2025-01-10,2025-01-10T01:00:00Z,CLB BJackets,SEA Kraken,2.45,3.95,2.35,2025-01-09 10:23:26,Demain à 01h00,NHL,CBJ - Columbus Blue Jackets,SEA - Seattle Kraken
+Zebet,2025-01-10,2025-01-10T01:00:00Z,OTT Senators,BUF Sabres,2.0,4.0,2.95,2025-01-09 10:23:26,Demain à 01h00,NHL,OTT - Ottawa Senators,BUF - Buffalo Sabres
+Zebet,2025-01-10,2025-01-10T01:00:00Z,PHI Flyers,DAL Stars,3.1,4.1,1.92,2025-01-09 10:23:26,Demain à 01h00,NHL,PHI - Philadelphia Flyers,DAL - Dallas Stars
+Zebet,2025-01-10,2025-01-10T01:00:00Z,TB Lightning,BOS Bruins,1.96,4.0,3.05,2025-01-09 10:23:26,Demain à 01h00,NHL,TBL - Tampa Bay Lightning,BOS - Boston Bruins
+Zebet,2025-01-10,2025-01-10T01:00:00Z,NY Rangers,NJ Devils,3.2,4.15,1.87,2025-01-09 10:23:26,Demain à 01h00,NHL,NYR - New York Rangers,NJD - New Jersey Devils
+Zebet,2025-01-10,2025-01-10T01:00:00Z,PIT Penguins,EDM Oilers,3.35,4.25,1.8,2025-01-09 10:23:26,Demain à 01h00,NHL,PIT - Pittsburgh Penguins,EDM - Edmonton Oilers
+Zebet,2025-01-10,2025-01-10T01:30:00Z,CAR Hurricanes,TOR MapleLeafs,1.94,4.0,3.1,2025-01-09 10:23:26,Demain à 01h30,NHL,CAR - Carolina Hurricanes,TOR - Toronto Maple Leafs
+Zebet,2025-01-10,2025-01-10T02:00:00Z,STL Blues,ANA Ducks,1.79,4.15,3.45,2025-01-09 10:23:26,Demain à 02h00,NHL,STL - St. Louis Blues,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2025-01-10,2025-01-10T02:00:00Z,MIN Wild,CLR Avalanche,2.7,3.95,2.15,2025-01-09 10:23:26,Demain à 02h00,NHL,MIN - Minnesota Wild,COL - Colorado Avalanche
+Zebet,2025-01-10,2025-01-10T04:00:00Z,VEG GKnights,NY Islanders,1.87,4.1,3.2,2025-01-09 10:23:26,Demain à 04h00,NHL,VGK - Vegas Golden Knights,NYI - New York Islanders
+Netbet,,,Columbus Blue Jackets,Seattle Kraken,2.42,4.0,2.32,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,CBJ - Columbus Blue Jackets,SEA - Seattle Kraken
+Netbet,,,New York Rangers,New Jersey Devils,3.2,4.2,1.85,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,NYR - New York Rangers,NJD - New Jersey Devils
+Netbet,,,Ottawa Senators,Buffalo Sabres,2.02,4.0,2.87,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,OTT - Ottawa Senators,BUF - Buffalo Sabres
+Netbet,,,Philadelphia Flyers,Dallas Stars,3.1,4.1,1.9,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,PHI - Philadelphia Flyers,DAL - Dallas Stars
+Netbet,,,Pittsburgh Penguins,Edmonton Oilers,3.4,4.2,1.78,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,PIT - Pittsburgh Penguins,EDM - Edmonton Oilers
+Netbet,,,Tampa Bay Lightning,Boston Bruins,1.95,4.0,3.0,2025-01-09 10:24:12,ven. 10 janv. 01:00,NHL,TBL - Tampa Bay Lightning,BOS - Boston Bruins
+Netbet,,,Carolina Hurricanes,Toronto Maple Leafs,1.93,3.95,3.1,2025-01-09 10:24:12,ven. 10 janv. 01:30,NHL,CAR - Carolina Hurricanes,TOR - Toronto Maple Leafs
+Netbet,,,Minnesota Wild,Colorado Avalanche,2.7,4.0,2.12,2025-01-09 10:24:12,ven. 10 janv. 02:00,NHL,MIN - Minnesota Wild,COL - Colorado Avalanche
+Netbet,,,St. Louis Blues,Anaheim Ducks,1.78,4.2,3.45,2025-01-09 10:24:12,ven. 10 janv. 02:00,NHL,STL - St. Louis Blues,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Netbet,,,Vegas Golden Knights,New York Islanders,1.85,4.1,3.25,2025-01-09 10:24:12,ven. 10 janv. 04:00,NHL,VGK - Vegas Golden Knights,NYI - New York Islanders
+Winamax,2025-01-10,2025-01-10T01:00:00Z,New York Rangers,New Jersey Devils,3.1,4.0,1.84,2025-01-09 10:45:46,Demain à 01:00,NHL,NYR - New York Rangers,NJD - New Jersey Devils
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Philadelphia Flyers,Dallas Stars,3.0,4.0,1.88,2025-01-09 10:45:46,Demain à 01:00,NHL,PHI - Philadelphia Flyers,DAL - Dallas Stars
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Pittsburgh Penguins,Edmonton Oilers,3.25,4.1,1.76,2025-01-09 10:45:46,Demain à 01:00,NHL,PIT - Pittsburgh Penguins,EDM - Edmonton Oilers
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Columbus Blue Jackets,Seattle Kraken,2.35,3.85,2.3,2025-01-09 10:45:46,Demain à 01:00,NHL,CBJ - Columbus Blue Jackets,SEA - Seattle Kraken
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Tampa Bay Lightning,Boston Bruins,1.92,3.9,2.95,2025-01-09 10:45:46,Demain à 01:00,NHL,TBL - Tampa Bay Lightning,BOS - Boston Bruins
+Winamax,2025-01-10,2025-01-10T01:00:00Z,Ottawa Senators,Buffalo Sabres,1.96,3.85,2.85,2025-01-09 10:45:46,Demain à 01:00,NHL,OTT - Ottawa Senators,BUF - Buffalo Sabres
+Winamax,2025-01-10,2025-01-10T01:30:00Z,Carolina Hurricanes,Toronto Maple Leafs,1.9,3.85,3.0,2025-01-09 10:45:46,Demain à 01:30,NHL,CAR - Carolina Hurricanes,TOR - Toronto Maple Leafs
+Winamax,2025-01-10,2025-01-10T02:00:00Z,St. Louis Blues,Anaheim Ducks,1.76,4.0,3.35,2025-01-09 10:45:46,Demain à 02:00,NHL,STL - St. Louis Blues,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2025-01-10,2025-01-10T02:00:00Z,Minnesota Wild,Colorado Avalanche,2.6,3.85,2.1,2025-01-09 10:45:46,Demain à 02:00,NHL,MIN - Minnesota Wild,COL - Colorado Avalanche
+Winamax,2025-01-10,2025-01-10T04:00:00Z,Vegas Golden Knights,New York Islanders,1.84,4.0,3.1,2025-01-09 10:45:46,Demain à 04:00,NHL,VGK - Vegas Golden Knights,NYI - New York Islanders
+Zebet,2025-01-10,2025-01-10T01:00:00Z,CLB BJackets,SEA Kraken,2.45,3.95,2.35,2025-01-09 10:45:46,Demain à 01h00,NHL,CBJ - Columbus Blue Jackets,SEA - Seattle Kraken
+Zebet,2025-01-10,2025-01-10T01:00:00Z,OTT Senators,BUF Sabres,2.0,4.0,2.95,2025-01-09 10:45:46,Demain à 01h00,NHL,OTT - Ottawa Senators,BUF - Buffalo Sabres
+Zebet,2025-01-10,2025-01-10T01:00:00Z,PHI Flyers,DAL Stars,3.1,4.1,1.92,2025-01-09 10:45:46,Demain à 01h00,NHL,PHI - Philadelphia Flyers,DAL - Dallas Stars
+Zebet,2025-01-10,2025-01-10T01:00:00Z,TB Lightning,BOS Bruins,1.96,4.0,3.05,2025-01-09 10:45:46,Demain à 01h00,NHL,TBL - Tampa Bay Lightning,BOS - Boston Bruins
+Zebet,2025-01-10,2025-01-10T01:00:00Z,NY Rangers,NJ Devils,3.2,4.15,1.87,2025-01-09 10:45:46,Demain à 01h00,NHL,NYR - New York Rangers,NJD - New Jersey Devils
+Zebet,2025-01-10,2025-01-10T01:00:00Z,PIT Penguins,EDM Oilers,3.35,4.25,1.8,2025-01-09 10:45:46,Demain à 01h00,NHL,PIT - Pittsburgh Penguins,EDM - Edmonton Oilers
+Zebet,2025-01-10,2025-01-10T01:30:00Z,CAR Hurricanes,TOR MapleLeafs,1.94,4.0,3.1,2025-01-09 10:45:46,Demain à 01h30,NHL,CAR - Carolina Hurricanes,TOR - Toronto Maple Leafs
+Zebet,2025-01-10,2025-01-10T02:00:00Z,STL Blues,ANA Ducks,1.79,4.15,3.45,2025-01-09 10:45:46,Demain à 02h00,NHL,STL - St. Louis Blues,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2025-01-10,2025-01-10T02:00:00Z,MIN Wild,CLR Avalanche,2.7,3.95,2.15,2025-01-09 10:45:46,Demain à 02h00,NHL,MIN - Minnesota Wild,COL - Colorado Avalanche
+Zebet,2025-01-10,2025-01-10T04:00:00Z,VEG GKnights,NY Islanders,1.87,4.1,3.2,2025-01-09 10:45:46,Demain à 04h00,NHL,VGK - Vegas Golden Knights,NYI - New York Islanders
+Winamax,2025-01-11,2025-01-11T01:00:00Z,Detroit Red Wings,Chicago Blackhawks,1.86,4.1,3.3,2025-01-10 19:40:40,Demain à 01:00,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2025-01-11,2025-01-11T01:00:00Z,Carolina Hurricanes,Vancouver Canucks,1.92,4.1,3.2,2025-01-10 19:40:40,Demain à 01:00,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Winamax,2025-01-11,2025-01-11T01:05:00Z,Washington Capitals,Montreal Canadiens,1.7,4.4,3.75,2025-01-10 19:40:40,Demain à 01:05,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Winamax,2025-01-11,2025-01-11T02:05:00Z,Winnipeg Jets,Los Angeles Kings,2.4,3.95,2.45,2025-01-10 19:40:40,Demain à 02:05,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Winamax,2025-01-11,2025-01-11T03:05:00Z,Utah Hockey Club,San Jose Sharks,1.58,4.5,4.5,2025-01-10 19:40:40,Demain à 03:05,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Winamax,2025-01-11,2025-01-11T19:00:00Z,Florida Panthers,Boston Bruins,1.88,4.0,3.0,2025-01-10 19:40:40,Demain à 19:00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Winamax,2025-01-11,2025-01-11T22:00:00Z,Buffalo Sabres,Seattle Kraken,2.05,3.85,2.6,2025-01-10 19:40:40,Demain à 22:00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Winamax,2025-01-11,2025-01-11T22:00:00Z,Pittsburgh Penguins,Ottawa Senators,2.35,3.85,2.2,2025-01-10 19:40:40,Demain à 22:00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Chicago Blackhawks,Edmonton Oilers,4.3,4.2,1.52,2025-01-10 19:40:40,dimanche à 01:00,NHL,CHI - Chicago Black Hawks/Blackhawks,EDM - Edmonton Oilers
+Winamax,2025-01-15,2025-01-15T01:00:00Z,New Jersey Devils,Tampa Bay Lightning,1.94,3.95,2.8,2025-01-10 19:40:40,dimanche à 01:00,NHL,NJD - New Jersey Devils,TBL - Tampa Bay Lightning
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Winnipeg Jets,Colorado Avalanche,2.45,3.9,2.15,2025-01-10 19:40:40,dimanche à 01:00,NHL,WPG - Winnipeg Jets,COL - Colorado Avalanche
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Philadelphia Flyers,Anaheim Ducks,1.7,4.1,3.4,2025-01-10 19:40:40,dimanche à 01:00,NHL,PHI - Philadelphia Flyers,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Montreal Canadiens,Dallas Stars,3.3,4.0,1.74,2025-01-10 19:40:40,dimanche à 01:00,NHL,MTL - Montreal Canadiens,DAL - Dallas Stars
+Winamax,2025-01-15,2025-01-15T01:00:00Z,St. Louis Blues,Columbus Blue Jackets,1.9,3.9,2.9,2025-01-10 19:40:40,dimanche à 01:00,NHL,STL - St. Louis Blues,CBJ - Columbus Blue Jackets
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Toronto Maple Leafs,Vancouver Canucks,1.78,3.85,3.25,2025-01-10 19:40:40,dimanche à 01:00,NHL,TOR - Toronto Maple Leafs,VAN - Vancouver Canucks
+Winamax,2025-01-15,2025-01-15T02:00:00Z,Nashville Predators,Washington Capitals,2.1,3.85,2.5,2025-01-10 19:40:40,dimanche à 02:00,NHL,NSH - Nashville Predators,WSH - Washington Capitals
+Winamax,2025-01-15,2025-01-15T03:00:00Z,Utah Hockey Club,New York Islanders,2.1,3.85,2.5,2025-01-10 19:40:40,dimanche à 03:00,NHL,UTA - Utah Hockey Club,NYI - New York Islanders
+Winamax,2025-01-15,2025-01-15T04:00:00Z,Vegas Golden Knights,New York Rangers,1.86,4.0,2.95,2025-01-10 19:40:40,dimanche à 04:00,NHL,VGK - Vegas Golden Knights,NYR - New York Rangers
+Winamax,2025-01-15,2025-01-15T04:00:00Z,San Jose Sharks,Minnesota Wild,3.1,3.95,1.8,2025-01-10 19:40:40,dimanche à 04:00,NHL,SJS - San Jose Sharks,MIN - Minnesota Wild
+Winamax,2025-01-15,2025-01-15T04:00:00Z,Calgary Flames,Los Angeles Kings,2.55,3.85,2.1,2025-01-10 19:40:40,dimanche à 04:00,NHL,CGY - Calgary Flames,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T01:00:00Z,WAS Capitals,MON Canadiens,1.7,4.4,3.75,2025-01-10 19:40:41,Demain à 01h00,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Zebet,2025-01-11,2025-01-11T01:00:00Z,CAR Hurricanes,VAN Canucks,1.91,4.1,3.15,2025-01-10 19:40:41,Demain à 01h00,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Zebet,2025-01-11,2025-01-11T01:00:00Z,DET Red Wings,CHI Blackhawks,1.87,4.15,3.3,2025-01-10 19:40:41,Demain à 01h00,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2025-01-11,2025-01-11T02:00:00Z,WIN Jets,LA Kings,2.4,3.95,2.45,2025-01-10 19:40:41,Demain à 02h00,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T03:00:00Z,UTA HockeyClub,SJ Sharks,1.58,4.45,4.5,2025-01-10 19:40:41,Demain à 03h00,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Zebet,2025-01-11,2025-01-11T19:00:00Z,FLO Panthers,BOS Bruins,1.91,4.1,3.1,2025-01-10 19:40:41,Demain à 19h00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Zebet,2025-01-11,2025-01-11T22:00:00Z,BUF Sabres,SEA Kraken,2.1,4.0,2.65,2025-01-10 19:40:41,Demain à 22h00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Zebet,2025-01-11,2025-01-11T22:00:00Z,PIT Penguins,OTT Senators,2.45,4.0,2.3,2025-01-10 19:40:41,Demain à 22h00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Zebet,2025-01-12,2025-01-12T01:00:00Z,CHI Blackhawks,EDM Oilers,4.45,4.4,1.54,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,CHI - Chicago Black Hawks/Blackhawks,EDM - Edmonton Oilers
+Zebet,2025-01-12,2025-01-12T01:00:00Z,WIN Jets,CLR Avalanche,2.55,4.0,2.2,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,WPG - Winnipeg Jets,COL - Colorado Avalanche
+Zebet,2025-01-12,2025-01-12T01:00:00Z,NJ Devils,TB Lightning,1.97,4.05,2.9,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,NJD - New Jersey Devils,TBL - Tampa Bay Lightning
+Zebet,2025-01-12,2025-01-12T01:00:00Z,MON Canadiens,DAL Stars,3.4,4.15,1.77,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,MTL - Montreal Canadiens,DAL - Dallas Stars
+Zebet,2025-01-12,2025-01-12T01:00:00Z,PHI Flyers,ANA Ducks,1.72,4.25,3.5,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,PHI - Philadelphia Flyers,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,TOR MapleLeafs,VAN Canucks,1.82,4.0,3.35,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,TOR - Toronto Maple Leafs,VAN - Vancouver Canucks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,STL Blues,CLB BJackets,1.94,4.05,2.95,2025-01-10 19:40:41,Le 12/01 à 01h00,NHL,STL - St. Louis Blues,CBJ - Columbus Blue Jackets
+Zebet,2025-01-12,2025-01-12T02:00:00Z,NAS Predators,WAS Capitals,2.15,3.95,2.6,2025-01-10 19:40:41,Le 12/01 à 02h00,NHL,NSH - Nashville Predators,WSH - Washington Capitals
+Zebet,2025-01-12,2025-01-12T03:00:00Z,UTA HockeyClub,NY Islanders,2.15,3.95,2.6,2025-01-10 19:40:41,Le 12/01 à 03h00,NHL,UTA - Utah Hockey Club,NYI - New York Islanders
+Zebet,2025-01-12,2025-01-12T04:00:00Z,VEG GKnights,NY Rangers,1.9,4.15,3.05,2025-01-10 19:40:41,Le 12/01 à 04h00,NHL,VGK - Vegas Golden Knights,NYR - New York Rangers
+Zebet,2025-01-12,2025-01-12T04:00:00Z,SJ Sharks,MIN Wild,3.2,4.1,1.84,2025-01-10 19:40:41,Le 12/01 à 04h00,NHL,SJS - San Jose Sharks,MIN - Minnesota Wild
+Zebet,2025-01-12,2025-01-12T04:00:00Z,CAL Flames,LA Kings,2.65,3.95,2.15,2025-01-10 19:40:41,Le 12/01 à 04h00,NHL,CGY - Calgary Flames,LAK - Los Angeles Kings
+Winamax,2025-01-11,2025-01-11T01:00:00Z,Detroit Red Wings,Chicago Blackhawks,1.86,4.1,3.3,2025-01-10 22:56:43,Demain à 01:00,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Winamax,2025-01-11,2025-01-11T01:00:00Z,Washington Capitals,Montreal Canadiens,1.7,4.4,3.8,2025-01-10 22:56:43,Demain à 01:00,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Winamax,2025-01-11,2025-01-11T01:00:00Z,Carolina Hurricanes,Vancouver Canucks,1.94,4.1,3.15,2025-01-10 22:56:43,Demain à 01:00,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Winamax,2025-01-11,2025-01-11T02:05:00Z,Winnipeg Jets,Los Angeles Kings,2.4,3.95,2.45,2025-01-10 22:56:43,Demain à 02:05,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Winamax,2025-01-11,2025-01-11T03:05:00Z,Utah Hockey Club,San Jose Sharks,1.58,4.5,4.5,2025-01-10 22:56:43,Demain à 03:05,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Winamax,2025-01-11,2025-01-11T19:00:00Z,Florida Panthers,Boston Bruins,1.82,4.0,3.15,2025-01-10 22:56:43,Demain à 19:00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Winamax,2025-01-11,2025-01-11T22:00:00Z,Pittsburgh Penguins,Ottawa Senators,2.35,3.85,2.3,2025-01-10 22:56:43,Demain à 22:00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Winamax,2025-01-11,2025-01-11T22:00:00Z,Buffalo Sabres,Seattle Kraken,2.1,3.9,2.6,2025-01-10 22:56:43,Demain à 22:00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Toronto Maple Leafs,Vancouver Canucks,1.78,3.85,3.25,2025-01-10 22:56:43,dimanche à 01:00,NHL,TOR - Toronto Maple Leafs,VAN - Vancouver Canucks
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Chicago Blackhawks,Edmonton Oilers,4.5,4.3,1.49,2025-01-10 22:56:43,dimanche à 01:00,NHL,CHI - Chicago Black Hawks/Blackhawks,EDM - Edmonton Oilers
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Winnipeg Jets,Colorado Avalanche,2.45,3.85,2.15,2025-01-10 22:56:43,dimanche à 01:00,NHL,WPG - Winnipeg Jets,COL - Colorado Avalanche
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Montreal Canadiens,Dallas Stars,3.3,4.0,1.74,2025-01-10 22:56:43,dimanche à 01:00,NHL,MTL - Montreal Canadiens,DAL - Dallas Stars
+Winamax,2025-01-15,2025-01-15T01:00:00Z,Philadelphia Flyers,Anaheim Ducks,1.72,4.0,3.35,2025-01-10 22:56:43,dimanche à 01:00,NHL,PHI - Philadelphia Flyers,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Winamax,2025-01-15,2025-01-15T01:00:00Z,New Jersey Devils,Tampa Bay Lightning,1.92,3.95,2.85,2025-01-10 22:56:43,dimanche à 01:00,NHL,NJD - New Jersey Devils,TBL - Tampa Bay Lightning
+Winamax,2025-01-15,2025-01-15T01:00:00Z,St. Louis Blues,Columbus Blue Jackets,1.9,3.9,2.9,2025-01-10 22:56:43,dimanche à 01:00,NHL,STL - St. Louis Blues,CBJ - Columbus Blue Jackets
+Winamax,2025-01-15,2025-01-15T02:00:00Z,Nashville Predators,Washington Capitals,2.1,3.8,2.55,2025-01-10 22:56:43,dimanche à 02:00,NHL,NSH - Nashville Predators,WSH - Washington Capitals
+Winamax,2025-01-15,2025-01-15T03:00:00Z,Utah Hockey Club,New York Islanders,2.1,3.85,2.5,2025-01-10 22:56:43,dimanche à 03:00,NHL,UTA - Utah Hockey Club,NYI - New York Islanders
+Winamax,2025-01-15,2025-01-15T04:00:00Z,San Jose Sharks,Minnesota Wild,3.0,3.9,1.86,2025-01-10 22:56:43,dimanche à 04:00,NHL,SJS - San Jose Sharks,MIN - Minnesota Wild
+Winamax,2025-01-15,2025-01-15T04:00:00Z,Vegas Golden Knights,New York Rangers,1.88,3.95,2.95,2025-01-10 22:56:43,dimanche à 04:00,NHL,VGK - Vegas Golden Knights,NYR - New York Rangers
+Winamax,2025-01-15,2025-01-15T04:00:00Z,Calgary Flames,Los Angeles Kings,2.55,3.75,2.1,2025-01-10 22:56:43,dimanche à 04:00,NHL,CGY - Calgary Flames,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T01:00:00Z,WAS Capitals,MON Canadiens,1.71,4.5,3.8,2025-01-10 22:56:43,Demain à 01h00,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Zebet,2025-01-11,2025-01-11T01:00:00Z,CAR Hurricanes,VAN Canucks,1.94,4.15,3.2,2025-01-10 22:56:43,Demain à 01h00,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Zebet,2025-01-11,2025-01-11T01:00:00Z,DET Red Wings,CHI Blackhawks,1.88,4.2,3.35,2025-01-10 22:56:43,Demain à 01h00,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2025-01-11,2025-01-11T02:00:00Z,WIN Jets,LA Kings,2.4,3.95,2.45,2025-01-10 22:56:43,Demain à 02h00,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T03:00:00Z,UTA HockeyClub,SJ Sharks,1.58,4.45,4.5,2025-01-10 22:56:43,Demain à 03h00,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Zebet,2025-01-11,2025-01-11T19:00:00Z,FLO Panthers,BOS Bruins,1.85,4.15,3.25,2025-01-10 22:56:43,Demain à 19h00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Zebet,2025-01-11,2025-01-11T22:00:00Z,BUF Sabres,SEA Kraken,2.15,4.0,2.7,2025-01-10 22:56:43,Demain à 22h00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Zebet,2025-01-11,2025-01-11T22:00:00Z,PIT Penguins,OTT Senators,2.45,3.95,2.35,2025-01-10 22:56:43,Demain à 22h00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Zebet,2025-01-12,2025-01-12T01:00:00Z,CHI Blackhawks,EDM Oilers,4.65,4.45,1.51,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,CHI - Chicago Black Hawks/Blackhawks,EDM - Edmonton Oilers
+Zebet,2025-01-12,2025-01-12T01:00:00Z,WIN Jets,CLR Avalanche,2.5,3.95,2.25,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,WPG - Winnipeg Jets,COL - Colorado Avalanche
+Zebet,2025-01-12,2025-01-12T01:00:00Z,NJ Devils,TB Lightning,1.95,4.05,2.9,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,NJD - New Jersey Devils,TBL - Tampa Bay Lightning
+Zebet,2025-01-12,2025-01-12T01:00:00Z,MON Canadiens,DAL Stars,3.4,4.15,1.77,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,MTL - Montreal Canadiens,DAL - Dallas Stars
+Zebet,2025-01-12,2025-01-12T01:00:00Z,PHI Flyers,ANA Ducks,1.75,4.2,3.45,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,PHI - Philadelphia Flyers,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,TOR MapleLeafs,VAN Canucks,1.82,4.0,3.35,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,TOR - Toronto Maple Leafs,VAN - Vancouver Canucks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,STL Blues,CLB BJackets,1.95,4.0,2.95,2025-01-10 22:56:43,Le 12/01 à 01h00,NHL,STL - St. Louis Blues,CBJ - Columbus Blue Jackets
+Zebet,2025-01-12,2025-01-12T02:00:00Z,NAS Predators,WAS Capitals,2.15,3.9,2.6,2025-01-10 22:56:43,Le 12/01 à 02h00,NHL,NSH - Nashville Predators,WSH - Washington Capitals
+Zebet,2025-01-12,2025-01-12T03:00:00Z,UTA HockeyClub,NY Islanders,2.2,3.95,2.55,2025-01-10 22:56:43,Le 12/01 à 03h00,NHL,UTA - Utah Hockey Club,NYI - New York Islanders
+Zebet,2025-01-12,2025-01-12T04:00:00Z,VEG GKnights,NY Rangers,1.91,4.05,3.05,2025-01-10 22:56:43,Le 12/01 à 04h00,NHL,VGK - Vegas Golden Knights,NYR - New York Rangers
+Zebet,2025-01-12,2025-01-12T04:00:00Z,SJ Sharks,MIN Wild,3.1,4.05,1.89,2025-01-10 22:56:43,Le 12/01 à 04h00,NHL,SJS - San Jose Sharks,MIN - Minnesota Wild
+Zebet,2025-01-12,2025-01-12T04:00:00Z,CAL Flames,LA Kings,2.65,3.9,2.15,2025-01-10 22:56:43,Le 12/01 à 04h00,NHL,CGY - Calgary Flames,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T01:00:00Z,WAS Capitals,MON Canadiens,1.71,4.5,3.8,2025-01-10 23:48:13,Demain à 01h00,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Zebet,2025-01-11,2025-01-11T01:00:00Z,CAR Hurricanes,VAN Canucks,1.92,4.2,3.2,2025-01-10 23:48:13,Demain à 01h00,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Zebet,2025-01-11,2025-01-11T01:00:00Z,DET Red Wings,CHI Blackhawks,1.88,4.2,3.35,2025-01-10 23:48:13,Demain à 01h00,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Zebet,2025-01-11,2025-01-11T02:00:00Z,WIN Jets,LA Kings,2.4,3.95,2.45,2025-01-10 23:48:13,Demain à 02h00,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Zebet,2025-01-11,2025-01-11T03:00:00Z,UTA HockeyClub,SJ Sharks,1.57,4.5,4.6,2025-01-10 23:48:13,Demain à 03h00,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Zebet,2025-01-11,2025-01-11T19:00:00Z,FLO Panthers,BOS Bruins,1.85,4.15,3.25,2025-01-10 23:48:13,Demain à 19h00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Zebet,2025-01-11,2025-01-11T22:00:00Z,BUF Sabres,SEA Kraken,2.15,4.0,2.7,2025-01-10 23:48:13,Demain à 22h00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Zebet,2025-01-11,2025-01-11T22:00:00Z,PIT Penguins,OTT Senators,2.45,3.95,2.35,2025-01-10 23:48:13,Demain à 22h00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Zebet,2025-01-12,2025-01-12T01:00:00Z,CHI Blackhawks,EDM Oilers,4.15,4.55,1.57,2025-01-10 23:48:13,Le 12/01 à 01h00,NHL,CHI - Chicago Black Hawks/Blackhawks,EDM - Edmonton Oilers
+Zebet,2025-01-12,2025-01-12T01:00:00Z,WIN Jets,CLR Avalanche,2.5,3.9,2.25,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,WPG - Winnipeg Jets,COL - Colorado Avalanche
+Zebet,2025-01-12,2025-01-12T01:00:00Z,NJ Devils,TB Lightning,1.95,4.05,2.9,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,NJD - New Jersey Devils,TBL - Tampa Bay Lightning
+Zebet,2025-01-12,2025-01-12T01:00:00Z,MON Canadiens,DAL Stars,3.4,4.15,1.77,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,MTL - Montreal Canadiens,DAL - Dallas Stars
+Zebet,2025-01-12,2025-01-12T01:00:00Z,PHI Flyers,ANA Ducks,1.76,4.15,3.45,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,PHI - Philadelphia Flyers,ANA - Mighty Ducks of Anaheim/Anaheim Ducks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,TOR MapleLeafs,VAN Canucks,1.82,4.0,3.35,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,TOR - Toronto Maple Leafs,VAN - Vancouver Canucks
+Zebet,2025-01-12,2025-01-12T01:00:00Z,STL Blues,CLB BJackets,1.94,4.05,3.0,2025-01-10 23:48:14,Le 12/01 à 01h00,NHL,STL - St. Louis Blues,CBJ - Columbus Blue Jackets
+Zebet,2025-01-12,2025-01-12T02:00:00Z,NAS Predators,WAS Capitals,2.2,3.9,2.55,2025-01-10 23:48:14,Le 12/01 à 02h00,NHL,NSH - Nashville Predators,WSH - Washington Capitals
+Zebet,2025-01-12,2025-01-12T03:00:00Z,UTA HockeyClub,NY Islanders,2.2,3.9,2.6,2025-01-10 23:48:14,Le 12/01 à 03h00,NHL,UTA - Utah Hockey Club,NYI - New York Islanders
+Zebet,2025-01-12,2025-01-12T04:00:00Z,VEG GKnights,NY Rangers,1.91,4.05,3.05,2025-01-10 23:48:14,Le 12/01 à 04h00,NHL,VGK - Vegas Golden Knights,NYR - New York Rangers
+Zebet,2025-01-12,2025-01-12T04:00:00Z,SJ Sharks,MIN Wild,3.1,4.05,1.89,2025-01-10 23:48:14,Le 12/01 à 04h00,NHL,SJS - San Jose Sharks,MIN - Minnesota Wild
+Zebet,2025-01-12,2025-01-12T04:00:00Z,CAL Flames,LA Kings,2.6,3.9,2.2,2025-01-10 23:48:14,Le 12/01 à 04h00,NHL,CGY - Calgary Flames,LAK - Los Angeles Kings
+Netbet,2025-01-11,2025-01-11T01:00:00Z,Carolina Hurricanes,Vancouver Canucks,1.88,4.1,3.15,2025-01-11 00:05:58, LIVE dans 55 min,NHL,CAR - Carolina Hurricanes,VAN - Vancouver Canucks
+Netbet,2025-01-11,2025-01-11T01:00:00Z,Detroit Red Wings,Chicago Blackhawks,1.85,4.1,3.25,2025-01-11 00:05:58, LIVE dans 55 min,NHL,DET - Detroit Red Wings,CHI - Chicago Black Hawks/Blackhawks
+Netbet,2025-01-11,2025-01-11T01:00:00Z,Washington Capitals,Montreal Canadiens,1.68,4.4,3.65,2025-01-11 00:05:58, LIVE dans 55 min,NHL,WSH - Washington Capitals,MTL - Montreal Canadiens
+Netbet,2025-01-11,2025-01-11T02:00:00Z,Winnipeg Jets,Los Angeles Kings,2.37,3.9,2.4,2025-01-11 00:05:58,sam. 11 janv. 02:00,NHL,WPG - Winnipeg Jets,LAK - Los Angeles Kings
+Netbet,2025-01-11,2025-01-11T03:00:00Z,Utah Hockey Club,San Jose Sharks,1.55,4.6,4.3,2025-01-11 00:05:58,sam. 11 janv. 03:00,NHL,UTA - Utah Hockey Club,SJS - San Jose Sharks
+Netbet,2025-01-11,2025-01-11T19:00:00Z,Florida Panthers,Boston Bruins,1.85,4.1,3.25,2025-01-11 00:05:58,sam. 11 janv. 19:00,NHL,FLA - Florida Panthers,BOS - Boston Bruins
+Netbet,2025-01-11,2025-01-11T22:00:00Z,Buffalo Sabres,Seattle Kraken,2.15,3.95,2.67,2025-01-11 00:05:58,sam. 11 janv. 22:00,NHL,BUF - Buffalo Sabres,SEA - Seattle Kraken
+Netbet,2025-01-11,2025-01-11T22:00:00Z,Pittsburgh Penguins,Ottawa Senators,2.45,3.9,2.35,2025-01-11 00:05:58,sam. 11 janv. 22:00,NHL,PIT - Pittsburgh Penguins,OTT - Ottawa Senators
+Netbet,2025-01-13,2025-01-14T01:00:00Z,Philadelphia Flyers,Florida Panthers,3.05,4.1,1.92,2025-01-13 13:20:28,mar. 14 janv. 01:00,NHL,PHI - Philadelphia Flyers,FLA - Florida Panthers
+Netbet,2025-01-13,2025-01-14T01:30:00Z,Chicago Blackhawks,Calgary Flames,2.7,4.0,2.1,2025-01-13 13:20:28,mar. 14 janv. 01:30,NHL,CHI - Chicago Black Hawks/Blackhawks,CGY - Calgary Flames
+Netbet,2025-01-13,2025-01-14T03:30:00Z,Edmonton Oilers,Los Angeles Kings,1.85,4.1,3.25,2025-01-13 13:20:28,mar. 14 janv. 03:30,NHL,EDM - Edmonton Oilers,LAK - Los Angeles Kings
+Zebet,2025-01-14,2025-01-14T01:00:00Z,PHI Flyers,FLO Panthers,3.05,4.2,1.95,2025-01-13 15:15:46,Demain à 01h00,NHL,PHI - Philadelphia Flyers,FLA - Florida Panthers
+Zebet,2025-01-14,2025-01-14T01:30:00Z,CHI Blackhawks,CAL Flames,2.75,4.05,2.15,2025-01-13 15:15:46,Demain à 01h30,NHL,CHI - Chicago Black Hawks/Blackhawks,CGY - Calgary Flames
+Zebet,2025-01-14,2025-01-14T03:30:00Z,EDM Oilers,LA Kings,1.87,4.1,3.2,2025-01-13 15:15:46,Demain à 03h30,NHL,EDM - Edmonton Oilers,LAK - Los Angeles Kings
+Netbet,2025-01-13,2025-01-14T01:00:00Z,Philadelphia Flyers,Florida Panthers,3.05,4.1,1.92,2025-01-13 15:16:23,mar. 14 janv. 01:00,NHL,PHI - Philadelphia Flyers,FLA - Florida Panthers
+Netbet,2025-01-13,2025-01-14T01:30:00Z,Chicago Blackhawks,Calgary Flames,2.7,4.0,2.1,2025-01-13 15:16:23,mar. 14 janv. 01:30,NHL,CHI - Chicago Black Hawks/Blackhawks,CGY - Calgary Flames
+Netbet,2025-01-13,2025-01-14T03:30:00Z,Edmonton Oilers,Los Angeles Kings,1.85,4.1,3.25,2025-01-13 15:16:23,mar. 14 janv. 03:30,NHL,EDM - Edmonton Oilers,LAK - Los Angeles Kings
