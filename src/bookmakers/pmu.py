@@ -1,5 +1,5 @@
 import datetime
-from utils.loaders import load_yaml
+from utils.loaders import load_config
 from utils.class_scrapper import EventScraper
 
 
@@ -118,7 +118,7 @@ class Pmu(EventScraper):
 
 def main():
 
-    config = load_yaml("../config/bookmaker_config.yml")
+    config = load_config("../config/bookmaker_config.yml")
     sport = "NHL"     # "NHL"
 
     # Initialize the scraper

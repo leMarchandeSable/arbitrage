@@ -4,8 +4,6 @@ import pickle
 from bs4 import BeautifulSoup
 from typing import List, Dict, Any
 import logging
-import pandas
-
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -71,41 +69,26 @@ def load_text(path: str, strip: bool = False) -> List[str]:
         raise
 
 
-def save_yaml(data, path):
-    """
-    Saves the provided data to a YAML file.
-
-    :param data: The data to save (must be serializable to YAML).
-    :param path: The path to the YAML file where data will be saved.
-    """
-    try:
-        with open(path, 'w', encoding='utf-8') as file:
-            yaml.dump(data, file, default_flow_style=False, allow_unicode=True)
-        logger.info(f"Data successfully saved to {path}")
-    except Exception as e:
-        logger.error(f"An error occurred while saving the YAML file: {e}")
-
-
-def load_yaml(path: str) -> Dict[str, Any]:
+def load_config(config_path: str) -> Dict[str, Any]:
     """
     Load configuration from a YAML file.
 
-    :param path: Path to the YAML configuration file.
+    :param config_path: Path to the YAML configuration file.
     :return: Parsed configuration as a dictionary.
     """
     try:
-        with open(path, "r", encoding="utf-8") as file:
+        with open(config_path, "r", encoding="utf-8") as file:
             config = yaml.safe_load(file)
-        logger.info(f"Yaml loaded successfully from {path}.")
+        logger.info(f"Configuration loaded successfully from {config_path}.")
         return config
     except FileNotFoundError:
-        logger.error(f"Yaml file not found at {path}.")
+        logger.error(f"Configuration file not found at {config_path}.")
         raise
     except yaml.YAMLError as e:
-        logger.error(f"Error parsing YAML from {path}: {e}")
+        logger.error(f"Error parsing YAML configuration from {config_path}: {e}")
         raise
     except Exception as e:
-        logger.error(f"Unexpected error while loading yaml from {path}: {e}")
+        logger.error(f"Unexpected error while loading config from {config_path}: {e}")
         raise
 
 
@@ -146,26 +129,4 @@ def save_json(file_path: str, data: Dict[str, Any], mode: str = "w"):
         logger.info(f"JSON file saved successfully to {file_path}.")
     except Exception as e:
         logger.error(f"Failed to save JSON file to {file_path}: {e}")
-        raise
-
-
-def load_pandas(path: str) -> pandas.DataFrame:
-    try:
-        data = pandas.read_csv(path)
-        logger.info(f"DataFrame successfully loaded from '{path}'")
-        return data
-    except FileNotFoundError:
-        logger.error(f"Pandas file not found at '{path}'.")
-        raise
-    except Exception as e:
-        logger.error(f"Unexpected error while loading Pandas from '{path}': {e}")
-        raise
-
-
-def save_pandas(data: pandas.DataFrame, path: str):
-    try:
-        data.to_csv(path, index=False)
-        logger.info(f"Pandas file saved successfully to '{path}'.")
-    except Exception as e:
-        logger.error(f"Failed to save Pandas file to '{path}': {e}")
         raise

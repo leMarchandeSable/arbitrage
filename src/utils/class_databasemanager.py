@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from utils.loaders import load_yaml, load_pandas, save_pandas
+from utils.loaders import load_config
 from utils.class_mapper import Mapper
 
 
@@ -10,25 +10,33 @@ class DatabaseManager:
     """
     def __init__(self, path: str):
         self.path = path
-        self.data = load_pandas(self.path)
+        self.data = self._load_database()
 
-    def _isnan(self, x) -> bool:
-        # return True if x is nan
-        return x != x
+    def _load_database(self) -> pd:
+        # Check if the CSV file exists
+        if os.path.exists(self.path):
+            return pd.read_csv(self.path)
+        return pd.DataFrame()
 
     def add_instance(self, instance: dict):
         self.data = pd.concat([self.data, pd.DataFrame([instance])], ignore_index=True)
 
     def save_database(self):
         self.data.drop_duplicates(inplace=True)  # Remove duplicates before saving
-        save_pandas(self.data, self.path)
+        self.data.to_csv(self.path, index=False)
 
-    def standardise_team_names(self, sport: str, mapper: Mapper):
+    def get_data(self):
+        return self.data
+
+    def show_data(self):
+        print(self.data.head)
+
+    def map_team_names(self, sport: str, mapping: Mapper):
 
         for index, event in self.data.iterrows():
             try:
-                home_team_standard = mapper.map_team_name(sport, event["Home Team Unparse"])
-                away_team_standard = mapper.map_team_name(sport, event["Away Team Unparse"])
+                home_team_standard = mapping.map_team_name(sport, event["Home Team Unparse"])
+                away_team_standard = mapping.map_team_name(sport, event["Away Team Unparse"])
 
                 self.data.at[index, "Home Team Std"] = home_team_standard
                 self.data.at[index, "Away Team Std"] = away_team_standard
@@ -36,81 +44,20 @@ class DatabaseManager:
                 raise e
         self.save_database()
 
-    def standardise_dates(self, mapper: Mapper):
-
-        for index, event in self.data.iterrows():
-            try:
-                bookmaker = event["Bookmaker"]
-                date_unparse = event["Date Unparse"]
-                scrapping_time = event["scrapping_time"]
-
-                if self._isnan(date_unparse):
-                    continue
-
-                date = mapper.map_date_unparse(bookmaker, date_unparse, scrapping_time)
-                self.data.at[index, "Date"] = date
-
-            except KeyError as ke:
-                print(f"data row {index}: KeyError 'scrapping_time', 'Date Unparse' or 'Bookmaker' not found {list(event.keys())}")
-                raise ke
-            except Exception as e:
-                print(e)
-                raise e
-
-        self.save_database()
-
-    def standardise_sports(self, mapper: Mapper):
-
-        for index, event in self.data.iterrows():
-            try:
-                sport_unparse = event["Sport Unparse"]
-
-                if self._isnan(sport_unparse):
-                    continue
-
-                self.data.at[index, "Sport"] = mapper.map_sport_unparse(sport_unparse)
-
-            except KeyError as ke:
-                print(f"data row {index}: Key value not found {event.keys()}")
-                raise ke
-            except Exception as e:
-                print(e)
-                raise e
-
-        self.save_database()
-
-    def standardise_category(self, mapper: Mapper):
-
-        for index, event in self.data.iterrows():
-            try:
-                category_unparse = event["Category Unparse"]
-
-                if self._isnan(category_unparse):
-                    continue
-
-                self.data.at[index, "Category"] = mapper.map_category_unparse(category_unparse)
-
-            except KeyError as ke:
-                print(f"data row {index}: Key value not found {event.keys()}")
-                raise ke
-            except Exception as e:
-                print(e)
-                raise e
-
-        self.save_database()
-
 
 if __name__ == "__main__":
-    config = load_yaml("../../config/bookmaker_config.yml")
+    config = load_config("../../config/bookmaker_config.yml")
     sport = "NHL"
 
     # db = DatabaseManager(config["path"]["database"])
     # mapping = Mapper(config["path"]["mapping"])
     db = DatabaseManager("../../data/database.csv")
-    mapper = Mapper("../../data/mapping.yml")
+    mapping = Mapper("../../data/mapping.yml")
+
+    team_names = list(db.data["Home Team Unparse"]) + list(db.data["Away Team Unparse"])
+
+    # Rename the existing DataFrame columns (columns={'oldName1': 'newName1', 'oldName2': 'newName2'})
+    # db.data.rename(columns={'Home Team': 'Home Team Unparse', 'Away Team': 'Away Team Unparse'}, inplace=True)
 
     # mapping.update_mapper(sport, team_names)
-    # db.map_team_names(sport, mapper)
-    # db.standardise_dates(mapper)
-    db.standardise_sports(mapper)
-    db.standardise_category(mapper)
+    db.map_team_names(sport, mapping)

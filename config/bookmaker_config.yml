@@ -2,6 +2,7 @@ path:
   greckodriver: "src/utils/greckodriver.exe"
   firefox: "C:/Program Files/Mozilla Firefox/firefox.exe"
   database: "data/database.csv"
+  mapping: "data/mapping.yml"
 
 bookmakers:
   Zebet:
