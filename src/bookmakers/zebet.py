@@ -1,5 +1,5 @@
 import datetime
-from utils.loaders import load_config
+from utils.loaders import load_yaml
 from utils.class_scrapper import EventScraper
 
 
@@ -54,42 +54,12 @@ class Zebet(EventScraper):
         self.logger.debug_log(f"Teams found: {teams['home']} vs {teams['away']}")
         return teams
 
-    def _parse_date(self, date_time_element: str) -> datetime:
-        date = datetime.datetime.now()
-
-        if "À " in date_time_element:
-            time_element = date_time_element.replace("À ", "")
-        elif "Demain" in date_time_element:
-            time_element = date_time_element.replace("Demain à ", "")
-            date += datetime.timedelta(days=1)
-        else:
-            time_element = date_time_element.split(' à ')[1]
-
-            day_element = date_time_element.split(' à ')[0]
-            dd, mm = day_element.replace('Le ', '').split('/')
-            date = date.replace(month=int(mm))
-            date = date.replace(day=int(dd))
-
-        hour, minute = time_element.split('h')
-        date = date.replace(hour=int(hour))
-        date = date.replace(minute=int(minute))
-        date = date.replace(second=0)
-        return date
-
-    def _get_match_time(self, event) -> dict:
+    def _get_match_time(self, event) -> str:
         date_time_element = event.find(self.CSS['tag']['date'], class_=self.CSS['class']['date'])
         self.logger.debug_log(f"CSS Bloc time found: {date_time_element}")
 
         # date_time_element: 'À 02h00', 'Demain à 01H30' or 'Le 18/12 à 01h30'
-        date_time = self._parse_date(date_time_element.text)
-
-        date = {
-            "day": date_time.strftime("%Y-%m-%d"),
-            "time": date_time.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "element": date_time_element.text,
-        }
-        self.logger.debug_log(f"Date found: {date['time']}")
-        return date
+        return date_time_element.text
 
     def _get_odds(self, event) -> dict:
         odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
@@ -110,7 +80,7 @@ class Zebet(EventScraper):
 
 def main():
 
-    config = load_config("../config/bookmaker_config.yml")
+    config = load_yaml("../../config/bookmaker_config.yml")
     sport = "NHL"     # "NHL"
 
     # Initialize the scraper
