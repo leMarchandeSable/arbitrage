@@ -1,7 +1,7 @@
 import pandas as pd
 
 from utils.class_databasemanager import DatabaseManager
-from utils.loaders import load_config
+from utils.loaders import load_yaml
 from itertools import product
 
 

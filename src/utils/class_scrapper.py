@@ -1,7 +1,7 @@
 import datetime
 from bs4 import BeautifulSoup
 import os
-
+from utils.loaders import save_html
 from utils.class_logger import Logger
 from utils.class_webdriver import WebDriver
 
@@ -23,7 +23,7 @@ class EventScraper:
 
         self.config = config
         self.sport = sport
-        self.timeout = 120000  # Wait timeout for content to load (ms)
+        self.timeout = 30000  # Wait timeout for content to load (ms)
         self.debug = debug
         self.actions = self._get_actions()
         self.mode = self._get_driver_mode()
@@ -73,15 +73,13 @@ class EventScraper:
                 data = {
                     "Bookmaker": self.get_bookmaker_name(),
                     "Sport": self.sport,
-                    "Date": date["day"],
-                    "Start Time (UTC)": date["time"],
                     "Home Team Unparse": teams["home"],
                     "Away Team Unparse": teams["away"],
                     "Home Odd": odds["home"],
                     "Draw Odd": odds["draw"],
                     "Away Odd": odds["away"],
-                    "Date Unparse": date["element"],
-                    "scrapping_time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "Date Unparse": date,
+                    "scrapping_time": datetime.datetime.now().strftime(self.datetime_format),
                 }
                 event_data.append(data)
                 # self.logger.info_log(f"Processed event {index}: {data}")

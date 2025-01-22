@@ -1,5 +1,5 @@
 import datetime
-from utils.loaders import load_config
+from utils.loaders import load_yaml
 from utils.class_scrapper import EventScraper
 
 
@@ -22,10 +22,6 @@ class Netbet(EventScraper):
             "team": "container-vertical",
             "odd": "container-odd-and-trend",
         }
-    }
-    DATE_FORMAT = {
-        "day": ["lun.", "mar.", "mer.", "jeu.", "ven.", "sam.", "dim."],
-        "month": ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."]
     }
 
     def _get_events(self):
@@ -66,45 +62,13 @@ class Netbet(EventScraper):
         self.logger.debug_log(f"Teams found: {teams['home short']} {teams['home']} vs {teams['away short']} {teams['away']}")
         return teams
 
-    def _parse_date(self, date_time_element: str) -> datetime:
-        date = datetime.datetime.now()
-
-        # 'mar. 24 déc. 02:00' -> ['mar.', '24', 'déc.', '02:00']
-        # 'LIVE dans 25 min' -> ['LIVE', 'dans', '25', 'min']
-        elements = date_time_element.split()
-
-        if "LIVE" in elements:
-            live_in_x_min = int(elements[2])
-            date += datetime.timedelta(minutes=live_in_x_min)
-        else:
-            dd = int(elements[1])
-            mm = self.DATE_FORMAT["month"].index(elements[2]) + 1
-            date = date.replace(day=dd)
-            date = date.replace(month=int(mm))
-
-            hour, minute = elements[3].split(':')
-            date = date.replace(hour=int(hour))
-            date = date.replace(minute=int(minute))
-
-        date = date.replace(second=0)
-        return date
-
     def _get_match_time(self, event) -> dict:
 
         date_time_element = event.find(self.CSS['tag']['date'], class_=self.CSS['class']['date'])
         self.logger.debug_log(f"CSS Bloc time found: {date_time_element}")
-        self.logger.debug_log(f"CSS Bloc time found: {date_time_element.text}")
 
         # date_time_element: 'LIVE dans 25 min' 'mar. 24 déc. 02:00'
-        date_time = self._parse_date(date_time_element.text)
-
-        date = {
-            "day": datetime.datetime.now().strftime("%Y-%m-%d"),
-            "time": date_time.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "element": date_time_element.text,
-        }
-        self.logger.debug_log(f"Date found: {date['time']}")
-        return date
+        return date_time_element.text
 
     def _get_odds(self, event) -> dict:
         odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
@@ -122,7 +86,7 @@ class Netbet(EventScraper):
 
 def main():
 
-    config = load_config("../../config/bookmaker_config.yml")
+    config = load_yaml("../../config/bookmaker_config.yml")
     sport = "NHL"     # "NHL"
 
     # Initialize the scraper

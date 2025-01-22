@@ -26,10 +26,3 @@
 │   ├── requirements.txt              # Python dependencies
 │   ├── .gitignore                    # Git ignore file for unnecessary files (e.g., `__pycache__`, `.log`, `.csv`)
 │   └── LICENSE                       # License file for the project
-
-
-
-todo:
-    test
-    log
-    class

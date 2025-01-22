@@ -1,97 +1,101 @@
-NHL:
-  ANA - Mighty Ducks of Anaheim/Anaheim Ducks:
-  - Anaheim Ducks
-  - ANA Ducks
-  BOS - Boston Bruins:
-  - Boston Bruins
-  - BOS Bruins
-  BUF - Buffalo Sabres:
-  - BUF Sabres
-  - Buffalo Sabres
-  CAR - Carolina Hurricanes:
-  - Carolina Hurricanes
-  - CAR Hurricanes
-  CBJ - Columbus Blue Jackets:
-  - Columbus Blue Jackets
-  - CLB BJackets
-  CGY - Calgary Flames:
-  - Calgary Flames
-  - CAL Flames
-  CHI - Chicago Black Hawks/Blackhawks:
-  - CHI Blackhawks
-  - Chicago Blackhawks
-  COL - Colorado Avalanche:
-  - Colorado Avalanche
-  - CLR Avalanche
-  DAL - Dallas Stars:
-  - DAL Stars
-  - Dallas Stars
-  DET - Detroit Red Wings:
-  - Detroit Red Wings
-  - DET Red Wings
-  EDM - Edmonton Oilers:
-  - Edmonton Oilers
-  - EDM Oilers
-  FLA - Florida Panthers:
-  - FLO Panthers
-  - Florida Panthers
-  LAK - Los Angeles Kings:
-  - Los Angeles Kings
-  - LA Kings
-  MIN - Minnesota Wild:
-  - MIN Wild
-  - Minnesota Wild
-  MTL - Montreal Canadiens:
-  - Montreal Canadiens
-  - MON Canadiens
-  NJD - New Jersey Devils:
-  - New Jersey Devils
-  - NJ Devils
-  NSH - Nashville Predators:
-  - Nashville Predators
-  - NAS Predators
-  NYI - New York Islanders:
-  - New York Islanders
-  - NY Islanders
-  NYR - New York Rangers:
-  - New York Rangers
-  - NY Rangers
-  OTT - Ottawa Senators:
-  - Ottawa Senators
-  - OTT Senators
-  PHI - Philadelphia Flyers:
-  - Philadelphia Flyers
-  - PHI Flyers
-  PIT - Pittsburgh Penguins:
-  - Pittsburgh Penguins
-  - PIT Penguins
-  SEA - Seattle Kraken:
-  - SEA Kraken
-  - Seattle Kraken
-  SJS - San Jose Sharks:
-  - SJ Sharks
-  - San Jose Sharks
-  STL - St. Louis Blues:
-  - STL Blues
-  - St. Louis Blues
-  TBL - Tampa Bay Lightning:
-  - Tampa Bay Lightning
-  - TB Lightning
-  TOR - Toronto Maple Leafs:
-  - Toronto Maple Leafs
-  - TOR MapleLeafs
-  UTA - Utah Hockey Club:
-  - UTA HockeyClub
-  - Utah Hockey Club
-  VAN - Vancouver Canucks:
-  - VAN Canucks
-  - Vancouver Canucks
-  VGK - Vegas Golden Knights:
-  - VEG GKnights
-  - Vegas Golden Knights
-  WPG - Winnipeg Jets:
-  - Winnipeg Jets
-  - WIN Jets
-  WSH - Washington Capitals:
-  - Washington Capitals
-  - WAS Capitals
+date:
+  day: ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+  month: ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."]
+teams:
+  NHL:
+    ANA - Mighty Ducks of Anaheim/Anaheim Ducks:
+    - Anaheim Ducks
+    - ANA Ducks
+    BOS - Boston Bruins:
+    - Boston Bruins
+    - BOS Bruins
+    BUF - Buffalo Sabres:
+    - BUF Sabres
+    - Buffalo Sabres
+    CAR - Carolina Hurricanes:
+    - Carolina Hurricanes
+    - CAR Hurricanes
+    CBJ - Columbus Blue Jackets:
+    - Columbus Blue Jackets
+    - CLB BJackets
+    CGY - Calgary Flames:
+    - Calgary Flames
+    - CAL Flames
+    CHI - Chicago Black Hawks/Blackhawks:
+    - CHI Blackhawks
+    - Chicago Blackhawks
+    COL - Colorado Avalanche:
+    - Colorado Avalanche
+    - CLR Avalanche
+    DAL - Dallas Stars:
+    - DAL Stars
+    - Dallas Stars
+    DET - Detroit Red Wings:
+    - Detroit Red Wings
+    - DET Red Wings
+    EDM - Edmonton Oilers:
+    - Edmonton Oilers
+    - EDM Oilers
+    FLA - Florida Panthers:
+    - FLO Panthers
+    - Florida Panthers
+    LAK - Los Angeles Kings:
+    - Los Angeles Kings
+    - LA Kings
+    MIN - Minnesota Wild:
+    - MIN Wild
+    - Minnesota Wild
+    MTL - Montreal Canadiens:
+    - Montreal Canadiens
+    - MON Canadiens
+    NJD - New Jersey Devils:
+    - New Jersey Devils
+    - NJ Devils
+    NSH - Nashville Predators:
+    - Nashville Predators
+    - NAS Predators
+    NYI - New York Islanders:
+    - New York Islanders
+    - NY Islanders
+    NYR - New York Rangers:
+    - New York Rangers
+    - NY Rangers
+    OTT - Ottawa Senators:
+    - Ottawa Senators
+    - OTT Senators
+    PHI - Philadelphia Flyers:
+    - Philadelphia Flyers
+    - PHI Flyers
+    PIT - Pittsburgh Penguins:
+    - Pittsburgh Penguins
+    - PIT Penguins
+    SEA - Seattle Kraken:
+    - SEA Kraken
+    - Seattle Kraken
+    SJS - San Jose Sharks:
+    - SJ Sharks
+    - San Jose Sharks
+    STL - St. Louis Blues:
+    - STL Blues
+    - St. Louis Blues
+    TBL - Tampa Bay Lightning:
+    - Tampa Bay Lightning
+    - TB Lightning
+    TOR - Toronto Maple Leafs:
+    - Toronto Maple Leafs
+    - TOR MapleLeafs
+    UTA - Utah Hockey Club:
+    - UTA HockeyClub
+    - Utah Hockey Club
+    VAN - Vancouver Canucks:
+    - VAN Canucks
+    - Vancouver Canucks
+    VGK - Vegas Golden Knights:
+    - VEG GKnights
+    - Vegas Golden Knights
+    WPG - Winnipeg Jets:
+    - Winnipeg Jets
+    - WIN Jets
+    WSH - Washington Capitals:
+    - Washington Capitals
+    - WAS Capitals
