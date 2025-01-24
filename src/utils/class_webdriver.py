@@ -155,7 +155,7 @@ class WebDriver:
             except Exception as e:
                 self.logger.debug_log(f"Error in action {index}: {e}")
                 raise
-        page.wait_for_timeout(10000)
+        page.wait_for_timeout(2000)
 
 
 def scroll_to_bottom(page, scroll_step=300, delay=0.1):

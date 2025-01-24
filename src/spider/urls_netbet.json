@@ -1,0 +1,296 @@
+{
+    "hockey-glace": {
+        "france": {
+            "ligue-magnus": "https://www.netbet.fr/hockey-glace/france/ligue-magnus"
+        },
+        "finlande": {
+            "sm-liiga": "https://www.netbet.fr/hockey-glace/finlande/sm-liiga"
+        },
+        "etats-unis": {
+            "ahl": "https://www.netbet.fr/hockey-glace/etats-unis/ahl",
+            "nhl": "https://www.netbet.fr/hockey-glace/etats-unis/nhl",
+            "nhl-conferences": "https://www.netbet.fr/hockey-glace/etats-unis/nhl-conferences"
+        },
+        "allemagne": {
+            "del": "https://www.netbet.fr/hockey-glace/allemagne/del"
+        },
+        "republique-tcheque": {
+            "extraliga": "https://www.netbet.fr/hockey-glace/republique-tcheque/extraliga"
+        },
+        "suede": {
+            "shl": "https://www.netbet.fr/hockey-glace/suede/shl"
+        },
+        "russie": {
+            "khl": "https://www.netbet.fr/hockey-glace/russie/khl"
+        },
+        "championnat-du-monde": {
+            "championnat-du-monde": "https://www.netbet.fr/hockey-glace/championnat-du-monde/championnat-du-monde"
+        },
+        "autriche": {
+            "ehl": "https://www.netbet.fr/hockey-glace/autriche/ehl"
+        },
+        "norvege": {
+            "eliteserien": "https://www.netbet.fr/hockey-glace/norvege/eliteserien"
+        },
+        "suisse": {
+            "nla": "https://www.netbet.fr/hockey-glace/suisse/nla"
+        },
+        "slovaquie": {
+            "extraliga": "https://www.netbet.fr/hockey-glace/slovaquie/extraliga"
+        }
+    },
+    "football": {
+        "ligue-europa": {
+            "ligue-europa": "https://www.netbet.fr/football/ligue-europa/ligue-europa"
+        },
+        "ligue-conference": {
+            "ligue-conference": "https://www.netbet.fr/football/ligue-conference/ligue-conference"
+        },
+        "espagne": {
+            "laliga2": "https://www.netbet.fr/football/espagne/laliga2",
+            "laliga": "https://www.netbet.fr/football/espagne/laliga",
+            "coupe-du-roi": "https://www.netbet.fr/football/espagne/coupe-du-roi"
+        },
+        "suisse": {
+            "credit-suisse-super-league": "https://www.netbet.fr/football/suisse/credit-suisse-super-league"
+        },
+        "italie": {
+            "coupe-d-italie": "https://www.netbet.fr/football/italie/coupe-d-italie",
+            "serie-a": "https://www.netbet.fr/football/italie/serie-a",
+            "serie-b": "https://www.netbet.fr/football/italie/serie-b"
+        },
+        "roumanie": {
+            "liga-1": "https://www.netbet.fr/football/roumanie/liga-1"
+        },
+        "angleterre": {
+            "fa-cup": "https://www.netbet.fr/football/angleterre/fa-cup",
+            "championship": "https://www.netbet.fr/football/angleterre/championship",
+            "premier-league": "https://www.netbet.fr/football/angleterre/premier-league",
+            "efl-cup": "https://www.netbet.fr/football/angleterre/efl-cup"
+        },
+        "algerie": {
+            "ligue-1-mobilis": "https://www.netbet.fr/football/algerie/ligue-1-mobilis"
+        },
+        "belgique": {
+            "jupiler-league": "https://www.netbet.fr/football/belgique/jupiler-league"
+        },
+        "allemagne": {
+            "bundesliga-2": "https://www.netbet.fr/football/allemagne/bundesliga-2",
+            "dfb-pokal": "https://www.netbet.fr/football/allemagne/dfb-pokal",
+            "bundesliga": "https://www.netbet.fr/football/allemagne/bundesliga"
+        },
+        "colombie": {
+            "primera-a": "https://www.netbet.fr/football/colombie/primera-a"
+        },
+        "ligue-des-champions": {
+            "ligue-des-champions": "https://www.netbet.fr/football/ligue-des-champions/ligue-des-champions"
+        },
+        "irlande-du-nord": {
+            "premiership": "https://www.netbet.fr/football/irlande-du-nord/premiership"
+        },
+        "arabie-saoudite": {
+            "saudi-pro-league": "https://www.netbet.fr/football/arabie-saoudite/saudi-pro-league"
+        },
+        "paraguay": {
+            "primera-division": "https://www.netbet.fr/football/paraguay/primera-division"
+        },
+        "pays-bas": {
+            "eredivisie": "https://www.netbet.fr/football/pays-bas/eredivisie"
+        },
+        "portugal": {
+            "segunda-liga": "https://www.netbet.fr/football/portugal/segunda-liga",
+            "primeira-liga": "https://www.netbet.fr/football/portugal/primeira-liga"
+        },
+        "france": {
+            "ligue-1-mcdonald-stm": "https://www.netbet.fr/football/france/ligue-1-mcdonald-stm",
+            "ligue-2-bkt-r": "https://www.netbet.fr/football/france/ligue-2-bkt-r",
+            "coupe-de-france": "https://www.netbet.fr/football/france/coupe-de-france"
+        },
+        "pays-de-galles": {
+            "premier-league-pdg": "https://www.netbet.fr/football/pays-de-galles/premier-league-pdg"
+        },
+        "israel": {
+            "ligat-ha-al": "https://www.netbet.fr/football/israel/ligat-ha-al"
+        },
+        "mexique": {
+            "primera-division-mex": "https://www.netbet.fr/football/mexique/primera-division-mex"
+        },
+        "croatie": {
+            "supersport-hnl": "https://www.netbet.fr/football/croatie/supersport-hnl"
+        },
+        "australie": {
+            "a-league": "https://www.netbet.fr/football/australie/a-league"
+        },
+        "grece": {
+            "super-league": "https://www.netbet.fr/football/grece/super-league"
+        },
+        "ligue-des-nations": {
+            "ligue-des-nations": "https://www.netbet.fr/football/ligue-des-nations/ligue-des-nations"
+        },
+        "coupe-du-monde-des-clubs": {
+            "coupe-du-monde-des-clubs": "https://www.netbet.fr/football/coupe-du-monde-des-clubs/coupe-du-monde-des-clubs"
+        },
+        "coupe-du-monde": {
+            "coupe-du-monde-qualification-uefa": "https://www.netbet.fr/football/coupe-du-monde/coupe-du-monde-qualification-uefa"
+        },
+        "turquie": {
+            "super-lig": "https://www.netbet.fr/football/turquie/super-lig"
+        },
+        "ecosse": {
+            "premiership": "https://www.netbet.fr/football/ecosse/premiership"
+        },
+        "argentine": {
+            "liga-profesional-argentina": "https://www.netbet.fr/football/argentine/liga-profesional-argentina"
+        },
+        "amerique-du-nord-et-centrale": {
+            "ligue-des-nations-de-la-concacaf": "https://www.netbet.fr/football/amerique-du-nord-et-centrale/ligue-des-nations-de-la-concacaf"
+        }
+    },
+    "tennis": {
+        "wta-doubles": {
+            "open-d-australie-doubles-f": "https://www.netbet.fr/tennis/wta-doubles/open-d-australie-doubles-f"
+        },
+        "atp": {
+            "roland-garros": "https://www.netbet.fr/tennis/atp/roland-garros",
+            "us-open": "https://www.netbet.fr/tennis/atp/us-open",
+            "wimbledon": "https://www.netbet.fr/tennis/atp/wimbledon",
+            "open-d-australie": "https://www.netbet.fr/tennis/atp/open-d-australie"
+        },
+        "wta": {
+            "roland-garros-f": "https://www.netbet.fr/tennis/wta/roland-garros-f",
+            "wimbledon-f": "https://www.netbet.fr/tennis/wta/wimbledon-f",
+            "us-open-f": "https://www.netbet.fr/tennis/wta/us-open-f",
+            "open-d-australie-f": "https://www.netbet.fr/tennis/wta/open-d-australie-f"
+        },
+        "atp-doubles": {
+            "open-d-australie-doubles": "https://www.netbet.fr/tennis/atp-doubles/open-d-australie-doubles"
+        }
+    },
+    "badminton": {
+        "international": {
+            "masters-d-indonesie-doubles-f": "https://www.netbet.fr/badminton/international/masters-d-indonesie-doubles-f",
+            "masters-d-indonesie-doubles": "https://www.netbet.fr/badminton/international/masters-d-indonesie-doubles",
+            "masters-d-indonesie": "https://www.netbet.fr/badminton/international/masters-d-indonesie",
+            "masters-d-indonesie-f": "https://www.netbet.fr/badminton/international/masters-d-indonesie-f",
+            "masters-d-indonesie-doubles-mixtes": "https://www.netbet.fr/badminton/international/masters-d-indonesie-doubles-mixtes"
+        }
+    },
+    "rugby": {
+        "coupe-du-monde": {
+            "coupe-du-monde": "https://www.netbet.fr/rugby/coupe-du-monde/coupe-du-monde"
+        },
+        "tournoi-des-six-nations": {
+            "tournoi-des-six-nations": "https://www.netbet.fr/rugby/tournoi-des-six-nations/tournoi-des-six-nations"
+        },
+        "world-sevens": {
+            "sevens-world-series-f": "https://www.netbet.fr/rugby/world-sevens/sevens-world-series-f",
+            "sevens-world-series": "https://www.netbet.fr/rugby/world-sevens/sevens-world-series"
+        },
+        "champions-cup": {
+            "champions-cup": "https://www.netbet.fr/rugby/champions-cup/champions-cup"
+        },
+        "france": {
+            "top-14": "https://www.netbet.fr/rugby/france/top-14",
+            "pro-d2": "https://www.netbet.fr/rugby/france/pro-d2"
+        },
+        "angleterre": {
+            "premiership": "https://www.netbet.fr/rugby/angleterre/premiership"
+        },
+        "international": {
+            "united-rugby-championship": "https://www.netbet.fr/rugby/international/united-rugby-championship"
+        }
+    },
+    "basketball": {
+        "france": {
+            "1ere-division-h": "https://www.netbet.fr/basketball/france/1ere-division-h",
+            "lfb-f": "https://www.netbet.fr/basketball/france/lfb-f",
+            "pro-b": "https://www.netbet.fr/basketball/france/pro-b"
+        },
+        "espagne": {
+            "liga-acb": "https://www.netbet.fr/basketball/espagne/liga-acb"
+        },
+        "coupes-d-europe": {
+            "eurocoupe": "https://www.netbet.fr/basketball/coupes-d-europe/eurocoupe",
+            "euroligue": "https://www.netbet.fr/basketball/coupes-d-europe/euroligue"
+        },
+        "international-clubs": {
+            "bnxt-league": "https://www.netbet.fr/basketball/international-clubs/bnxt-league"
+        },
+        "australie": {
+            "nbl": "https://www.netbet.fr/basketball/australie/nbl"
+        },
+        "etats-unis": {
+            "nba": "https://www.netbet.fr/basketball/etats-unis/nba",
+            "nba-conferences": "https://www.netbet.fr/basketball/etats-unis/nba-conferences",
+            "nba-divisions": "https://www.netbet.fr/basketball/etats-unis/nba-divisions"
+        },
+        "italie": {
+            "serie-a2": "https://www.netbet.fr/basketball/italie/serie-a2"
+        },
+        "allemagne": {
+            "bbl": "https://www.netbet.fr/basketball/allemagne/bbl"
+        },
+        "turquie": {
+            "tbsl": "https://www.netbet.fr/basketball/turquie/tbsl"
+        }
+    },
+    "rugby-a-xiii": {
+        "hemisphere-sud": {
+            "nrl": "https://www.netbet.fr/rugby-a-xiii/hemisphere-sud/nrl"
+        },
+        "europe": {
+            "super-league": "https://www.netbet.fr/rugby-a-xiii/europe/super-league"
+        }
+    },
+    "baseball": {
+        "etats-unis": {
+            "mlb": "https://www.netbet.fr/baseball/etats-unis/mlb"
+        }
+    },
+    "boxe": {
+        "international": {
+            "combats": "https://www.netbet.fr/boxe/international/combats",
+            "championnats-d-europe": "https://www.netbet.fr/boxe/international/championnats-d-europe"
+        }
+    },
+    "volleyball": {
+        "italie": {
+            "serie-a1-f": "https://www.netbet.fr/volleyball/italie/serie-a1-f"
+        },
+        "bresil": {
+            "superliga": "https://www.netbet.fr/volleyball/bresil/superliga"
+        },
+        "france": {
+            "ligue-a-f": "https://www.netbet.fr/volleyball/france/ligue-a-f",
+            "ligue-a": "https://www.netbet.fr/volleyball/france/ligue-a"
+        },
+        "allemagne": {
+            "1-bundesliga": "https://www.netbet.fr/volleyball/allemagne/1-bundesliga"
+        },
+        "belgique": {
+            "lotto-volley-league": "https://www.netbet.fr/volleyball/belgique/lotto-volley-league"
+        },
+        "pologne": {
+            "tauron-liga-f": "https://www.netbet.fr/volleyball/pologne/tauron-liga-f",
+            "plusliga": "https://www.netbet.fr/volleyball/pologne/plusliga"
+        }
+    },
+    "mma": {
+        "pfl": {
+            "combats": "https://www.netbet.fr/mma/pfl/combats"
+        }
+    },
+    "foot-us": {
+        "etats-unis": {
+            "nfl": "https://www.netbet.fr/foot-us/etats-unis/nfl"
+        }
+    },
+    "handball": {
+        "championnat-du-monde": {
+            "championnat-du-monde": "https://www.netbet.fr/handball/championnat-du-monde/championnat-du-monde"
+        },
+        "coupes-d-europe": {
+            "ligue-des-champions-f": "https://www.netbet.fr/handball/coupes-d-europe/ligue-des-champions-f"
+        }
+    }
+}

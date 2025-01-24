@@ -1,0 +1,376 @@
+{
+    "Football": {
+        "Pays-Bas": {
+            "Eredivisie": "https://www.winamax.fr/paris-sportifs/sports/1/35/39"
+        },
+        "Japon": {
+            "J-League": "https://www.winamax.fr/paris-sportifs/sports/1/52/82"
+        },
+        "International": {
+            "CDM Qualif. AmSud": "https://www.winamax.fr/paris-sportifs/sports/1/4/1434",
+            "Coupe du Monde": "https://www.winamax.fr/paris-sportifs/sports/1/4/900001750",
+            "Ligue des Nations CONCACAF": "https://www.winamax.fr/paris-sportifs/sports/1/4/92717"
+        },
+        "Italie": {
+            "Coupe d'Italie": "https://www.winamax.fr/paris-sportifs/sports/1/31/35",
+            "Serie B": "https://www.winamax.fr/paris-sportifs/sports/1/31/34",
+            "Serie A": "https://www.winamax.fr/paris-sportifs/sports/1/31/33"
+        },
+        "Suède": {
+            "Allsvenskan": "https://www.winamax.fr/paris-sportifs/sports/1/9/24"
+        },
+        "Slovénie": {
+            "Prva Liga ": "https://www.winamax.fr/paris-sportifs/sports/1/24/94"
+        },
+        "Azerbaïdjan": {
+            "Premier League ": "https://www.winamax.fr/paris-sportifs/sports/1/297/3590"
+        },
+        "Turquie": {
+            "Süper Lig": "https://www.winamax.fr/paris-sportifs/sports/1/46/62"
+        },
+        "Malte": {
+            "Premier League": "https://www.winamax.fr/paris-sportifs/sports/1/134/932"
+        },
+        "Angleterre": {
+            "Premier League": "https://www.winamax.fr/paris-sportifs/sports/1/1/1",
+            "FA Cup": "https://www.winamax.fr/paris-sportifs/sports/1/1/16",
+            "Championship": "https://www.winamax.fr/paris-sportifs/sports/1/1/2",
+            "EFL Cup": "https://www.winamax.fr/paris-sportifs/sports/1/1/17"
+        },
+        "Australie": {
+            "A-League": "https://www.winamax.fr/paris-sportifs/sports/1/34/144"
+        },
+        "Roumanie": {
+            "SuperLiga": "https://www.winamax.fr/paris-sportifs/sports/1/77/219"
+        },
+        "Slovaquie": {
+            "Niké Liga": "https://www.winamax.fr/paris-sportifs/sports/1/23/92"
+        },
+        "Croatie": {
+            "1. HNL": "https://www.winamax.fr/paris-sportifs/sports/1/14/48"
+        },
+        "Pologne": {
+            "Ekstraklasa": "https://www.winamax.fr/paris-sportifs/sports/1/47/64"
+        },
+        "France": {
+            "Coupe de France": "https://www.winamax.fr/paris-sportifs/sports/1/7/77",
+            "Ligue 2 BKT®": "https://www.winamax.fr/paris-sportifs/sports/1/7/19",
+            "Ligue 1 McDonald's®": "https://www.winamax.fr/paris-sportifs/sports/1/7/4"
+        },
+        "Chypre": {
+            "First Division": "https://www.winamax.fr/paris-sportifs/sports/1/102/681"
+        },
+        "Autriche": {
+            "Bundesliga": "https://www.winamax.fr/paris-sportifs/sports/1/17/29"
+        },
+        "Europe": {
+            "Ligue des Champions (F)": "https://www.winamax.fr/paris-sportifs/sports/1/800000542/107180",
+            "Ligue des Champions": "https://www.winamax.fr/paris-sportifs/sports/1/800000542/151665",
+            "Ligue des Nations": "https://www.winamax.fr/paris-sportifs/sports/1/800000542/900002367",
+            "Ligue Europa": "https://www.winamax.fr/paris-sportifs/sports/1/800000542/10909",
+            "Ligue Europa Conférence": "https://www.winamax.fr/paris-sportifs/sports/1/800000542/900006772"
+        },
+        "Colombie": {
+            "Primera A": "https://www.winamax.fr/paris-sportifs/sports/1/274/19232"
+        },
+        "Grèce": {
+            "Super League": "https://www.winamax.fr/paris-sportifs/sports/1/67/127"
+        },
+        "Paraguay": {
+            "Primera Division": "https://www.winamax.fr/paris-sportifs/sports/1/280/3133"
+        },
+        "Hongrie": {
+            "OTP Bank Liga": "https://www.winamax.fr/paris-sportifs/sports/1/11/50"
+        },
+        "Suisse": {
+            "Super League": "https://www.winamax.fr/paris-sportifs/sports/1/25/1060"
+        },
+        "Corée du Sud": {
+            "K League 1": "https://www.winamax.fr/paris-sportifs/sports/1/291/3284"
+        },
+        "Espagne": {
+            "LaLiga 2": "https://www.winamax.fr/paris-sportifs/sports/1/32/37",
+            "Coupe du Roi": "https://www.winamax.fr/paris-sportifs/sports/1/32/150",
+            "LaLiga": "https://www.winamax.fr/paris-sportifs/sports/1/32/36"
+        },
+        "Allemagne": {
+            "Coupe d'Allemagne": "https://www.winamax.fr/paris-sportifs/sports/1/30/43",
+            "2. Bundesliga": "https://www.winamax.fr/paris-sportifs/sports/1/30/41",
+            "Bundesliga": "https://www.winamax.fr/paris-sportifs/sports/1/30/42"
+        },
+        "Arabie Saoudite": {
+            "Saudi Pro League": "https://www.winamax.fr/paris-sportifs/sports/1/310/3708"
+        },
+        "Écosse": {
+            "Premiership": "https://www.winamax.fr/paris-sportifs/sports/1/22/54"
+        },
+        "Rép. Tchèque": {
+            "Chance Liga": "https://www.winamax.fr/paris-sportifs/sports/1/18/49"
+        },
+        "Portugal": {
+            "Liga Portugal 2": "https://www.winamax.fr/paris-sportifs/sports/1/44/280",
+            "Liga Portugal": "https://www.winamax.fr/paris-sportifs/sports/1/44/52"
+        },
+        "Israël": {
+            "Ligat ha'Al": "https://www.winamax.fr/paris-sportifs/sports/1/66/877"
+        },
+        "Algérie": {
+            "Ligue 1": "https://www.winamax.fr/paris-sportifs/sports/1/304/3657"
+        },
+        "Pays de Galles": {
+            "Cymru Premier League": "https://www.winamax.fr/paris-sportifs/sports/1/131/904"
+        },
+        "Danemark": {
+            "Superliga": "https://www.winamax.fr/paris-sportifs/sports/1/8/12"
+        },
+        "Irlande du Nord": {
+            "NIFL Premiership": "https://www.winamax.fr/paris-sportifs/sports/1/130/883"
+        },
+        "Belgique": {
+            "Coupe de Belgique": "https://www.winamax.fr/paris-sportifs/sports/1/33/206",
+            "Jupiler Pro League": "https://www.winamax.fr/paris-sportifs/sports/1/33/38"
+        },
+        "États-Unis": {
+            "Major League Soccer": "https://www.winamax.fr/paris-sportifs/sports/1/26/18"
+        },
+        "Mexique": {
+            "Liga MX": "https://www.winamax.fr/paris-sportifs/sports/1/12/16753"
+        },
+        "Bulgarie": {
+            "Parva Liga": "https://www.winamax.fr/paris-sportifs/sports/1/78/232"
+        },
+        "Argentine": {
+            "Primera División": "https://www.winamax.fr/paris-sportifs/sports/1/48/162285"
+        }
+    },
+    "Hockey sur glace": {
+        "International": {
+            "Ch. du Monde": "https://www.winamax.fr/paris-sportifs/sports/4/56/900004910"
+        },
+        "Suisse": {
+            "National League": "https://www.winamax.fr/paris-sportifs/sports/4/54/96"
+        },
+        "République Tchèque": {
+            "Extraliga": "https://www.winamax.fr/paris-sportifs/sports/4/42/109"
+        },
+        "Slovaquie": {
+            "Extraliga": "https://www.winamax.fr/paris-sportifs/sports/4/98/651"
+        },
+        "Suède": {
+            "SHL": "https://www.winamax.fr/paris-sportifs/sports/4/39/115"
+        },
+        "Allemagne": {
+            "DEL": "https://www.winamax.fr/paris-sportifs/sports/4/41/93"
+        },
+        "France": {
+            "Synerglace Ligue Magnus": "https://www.winamax.fr/paris-sportifs/sports/4/242/2520"
+        },
+        "Autriche": {
+            "ICE Hockey League": "https://www.winamax.fr/paris-sportifs/sports/4/65/125"
+        },
+        "États-Unis": {
+            "NHL": "https://www.winamax.fr/paris-sportifs/sports/4/37/142",
+            "AHL": "https://www.winamax.fr/paris-sportifs/sports/4/37/2768"
+        },
+        "Finlande": {
+            "Liiga": "https://www.winamax.fr/paris-sportifs/sports/4/40/108"
+        },
+        "Norvège": {
+            "EHL": "https://www.winamax.fr/paris-sportifs/sports/4/38/120"
+        }
+    },
+    "Rugby à XV": {
+        "France": {
+            "Pro D2": "https://www.winamax.fr/paris-sportifs/sports/12/800000111/22340",
+            "Top 14 ": "https://www.winamax.fr/paris-sportifs/sports/12/800000111/1600"
+        },
+        "International": {
+            "United Rugby Championship": "https://www.winamax.fr/paris-sportifs/sports/12/800000004/876",
+            "Coupe du Monde": "https://www.winamax.fr/paris-sportifs/sports/12/800000004/6911"
+        },
+        "Angleterre": {
+            "Premiership Rugby": "https://www.winamax.fr/paris-sportifs/sports/12/800000201/53265"
+        },
+        "Europe": {
+            "Tournoi des 6 Nations": "https://www.winamax.fr/paris-sportifs/sports/12/800000114/2901",
+            "Champions Cup": "https://www.winamax.fr/paris-sportifs/sports/12/800000114/35079"
+        }
+    },
+    "Volley-ball": {
+        "Grèce": {
+            "A1 (F)": "https://www.winamax.fr/paris-sportifs/sports/23/179/2846",
+            "A1": "https://www.winamax.fr/paris-sportifs/sports/23/179/1702"
+        },
+        "France": {
+            "Ligue A": "https://www.winamax.fr/paris-sportifs/sports/23/180/1712",
+            "Ligue A (F)": "https://www.winamax.fr/paris-sportifs/sports/23/180/1899"
+        },
+        "Turquie": {
+            "Efeler Ligi": "https://www.winamax.fr/paris-sportifs/sports/23/195/1929"
+        },
+        "Europe": {
+            "Ligue des Champions": "https://www.winamax.fr/paris-sportifs/sports/23/800000491/939",
+            "Ligue des Champions (F)": "https://www.winamax.fr/paris-sportifs/sports/23/800000491/56065"
+        },
+        "Allemagne": {
+            "1. Bundesliga": "https://www.winamax.fr/paris-sportifs/sports/23/123/833",
+            "1. Bundesliga (F)": "https://www.winamax.fr/paris-sportifs/sports/23/123/845"
+        },
+        "Espagne": {
+            "Superliga": "https://www.winamax.fr/paris-sportifs/sports/23/129/871",
+            "Superliga (F)": "https://www.winamax.fr/paris-sportifs/sports/23/129/860"
+        },
+        "Pologne": {
+            "Plus Liga": "https://www.winamax.fr/paris-sportifs/sports/23/313/3781",
+            "Tauron Liga (F)": "https://www.winamax.fr/paris-sportifs/sports/23/313/3836"
+        },
+        "Italie": {
+            "SuperLega": "https://www.winamax.fr/paris-sportifs/sports/23/126/850",
+            "Serie A1 (F)": "https://www.winamax.fr/paris-sportifs/sports/23/126/2741"
+        },
+        "Brésil": {
+            "Superliga (F)": "https://www.winamax.fr/paris-sportifs/sports/23/373/4221",
+            "Superliga": "https://www.winamax.fr/paris-sportifs/sports/23/373/4220"
+        },
+        "Belgique": {
+            "Euromillions Volley League": "https://www.winamax.fr/paris-sportifs/sports/23/256/2763"
+        }
+    },
+    "Rugby à 7": {
+        "World Series Perth": {
+            "Femmes": "https://www.winamax.fr/paris-sportifs/sports/9991/800000943/900007619",
+            "Hommes": "https://www.winamax.fr/paris-sportifs/sports/9991/800000943/900007620"
+        }
+    },
+    "Tennis": {
+        "WTA": {
+            "Roland Garros": "https://www.winamax.fr/paris-sportifs/sports/5/6/132845",
+            "US Open": "https://www.winamax.fr/paris-sportifs/sports/5/6/137849",
+            "Open d'Australie, Doubles": "https://www.winamax.fr/paris-sportifs/sports/5/6/157137",
+            "Open d'Australie": "https://www.winamax.fr/paris-sportifs/sports/5/6/144395",
+            "Wimbledon": "https://www.winamax.fr/paris-sportifs/sports/5/6/134803"
+        },
+        "ATP": {
+            "Open d'Australie, Doubles": "https://www.winamax.fr/paris-sportifs/sports/5/3/160801",
+            "Roland Garros": "https://www.winamax.fr/paris-sportifs/sports/5/3/132843",
+            "Wimbledon": "https://www.winamax.fr/paris-sportifs/sports/5/3/151327",
+            "Open d'Australie": "https://www.winamax.fr/paris-sportifs/sports/5/3/144393",
+            "US Open": "https://www.winamax.fr/paris-sportifs/sports/5/3/137847"
+        }
+    },
+    "Basketball": {
+        "Italie": {
+            "Lega Basket Serie A": "https://www.winamax.fr/paris-sportifs/sports/2/107/269",
+            "Lega Basket Serie A2": "https://www.winamax.fr/paris-sportifs/sports/2/107/106076",
+            "Lega Basket Serie A1 (F)": "https://www.winamax.fr/paris-sportifs/sports/2/107/4016"
+        },
+        "MultiBasket": {
+            "NBA": "https://www.winamax.fr/paris-sportifs/sports/2/800001109/900009029"
+        },
+        "Europe": {
+            "Ligue ABA ": "https://www.winamax.fr/paris-sportifs/sports/2/800000484/2451",
+            "Euroligue": "https://www.winamax.fr/paris-sportifs/sports/2/800000484/153",
+            "Eurocoupe": "https://www.winamax.fr/paris-sportifs/sports/2/800000484/900001338",
+            "BNXT League": "https://www.winamax.fr/paris-sportifs/sports/2/800000484/153195"
+        },
+        "France": {
+            "LFB (F)": "https://www.winamax.fr/paris-sportifs/sports/2/110/3241",
+            "1ère division du Ch. de France": "https://www.winamax.fr/paris-sportifs/sports/2/110/272",
+            "Pro B": "https://www.winamax.fr/paris-sportifs/sports/2/110/2857"
+        },
+        "Espagne": {
+            "Liga ENDESA": "https://www.winamax.fr/paris-sportifs/sports/2/109/271"
+        },
+        "Australie": {
+            "NBL": "https://www.winamax.fr/paris-sportifs/sports/2/113/727"
+        },
+        "Allemagne": {
+            "Coupe d'Allemagne": "https://www.winamax.fr/paris-sportifs/sports/2/111/1860",
+            "BBL": "https://www.winamax.fr/paris-sportifs/sports/2/111/154"
+        },
+        "États-Unis": {
+            "NBA": "https://www.winamax.fr/paris-sportifs/sports/2/15/177"
+        },
+        "Grèce": {
+            "ESAKE - A1": "https://www.winamax.fr/paris-sportifs/sports/2/108/270"
+        },
+        "Turquie": {
+            "Süper Ligi": "https://www.winamax.fr/paris-sportifs/sports/2/112/595"
+        }
+    },
+    "MMA": {
+        "UFC": {
+            "UFC Fight Night : Cannonier - Rodrigues": "https://www.winamax.fr/paris-sportifs/sports/117/1089/162593",
+            "UFC Fight Night: Edwards - Della Maddalena": "https://www.winamax.fr/paris-sportifs/sports/117/1089/163269",
+            "UFC Fight Night : Adesanya - Imavov": "https://www.winamax.fr/paris-sportifs/sports/117/1089/161715",
+            "UFC Fight Night : Cejudo - Song": "https://www.winamax.fr/paris-sportifs/sports/117/1089/162915",
+            "UFC Fight Night : Royval - Kape": "https://www.winamax.fr/paris-sportifs/sports/117/1089/162927",
+            "UFC 312 : Du Plessis - Strickland 2": "https://www.winamax.fr/paris-sportifs/sports/117/1089/161531",
+            "UFC 313: Pereira - Ankalaev": "https://www.winamax.fr/paris-sportifs/sports/117/1089/163245"
+        },
+        "PFL": {
+            "PFL Road to Champions : Dubai": "https://www.winamax.fr/paris-sportifs/sports/117/1095/161711"
+        }
+    },
+    "Football australien": {
+        "Australie": {
+            "AFL": "https://www.winamax.fr/paris-sportifs/sports/13/87/391"
+        }
+    },
+    "Rugby à XIII": {
+        "International": {
+            "NRL": "https://www.winamax.fr/paris-sportifs/sports/9992/800000116/362"
+        },
+        "Europe": {
+            "Super League": "https://www.winamax.fr/paris-sportifs/sports/9992/800000812/345"
+        }
+    },
+    "Handball": {
+        "Europe": {
+            "European League (F)": "https://www.winamax.fr/paris-sportifs/sports/6/800000485/900004509",
+            "Ligue des Champions": "https://www.winamax.fr/paris-sportifs/sports/6/800000485/217",
+            "Ligue des Champions (F)": "https://www.winamax.fr/paris-sportifs/sports/6/800000485/218"
+        },
+        "Espagne": {
+            "Liga Asobal": "https://www.winamax.fr/paris-sportifs/sports/6/71/157"
+        },
+        "France": {
+            "Liqui Moly Starligue": "https://www.winamax.fr/paris-sportifs/sports/6/121/2583"
+        },
+        "Allemagne": {
+            "Bundesliga": "https://www.winamax.fr/paris-sportifs/sports/6/53/95"
+        },
+        "International": {
+            "Ch. du Monde": "https://www.winamax.fr/paris-sportifs/sports/6/73/5421"
+        }
+    },
+    "Baseball": {
+        "États-Unis": {
+            "MLB": "https://www.winamax.fr/paris-sportifs/sports/3/16/25"
+        }
+    },
+    "Badminton": {
+        "Masters d'Indonésie": {
+            "Doubles Hommes": "https://www.winamax.fr/paris-sportifs/sports/31/800000678/163111",
+            "Simples Hommes": "https://www.winamax.fr/paris-sportifs/sports/31/800000678/163107",
+            "Doubles Mixte": "https://www.winamax.fr/paris-sportifs/sports/31/800000678/163115",
+            "Doubles Femmes": "https://www.winamax.fr/paris-sportifs/sports/31/800000678/163123",
+            "Simples Femmes": "https://www.winamax.fr/paris-sportifs/sports/31/800000678/163119"
+        }
+    },
+    "Snooker": {
+        "International": {
+            "Masters d'Allemagne": "https://www.winamax.fr/paris-sportifs/sports/19/55/900007607"
+        }
+    },
+    "Boxe": {
+        "International": {
+            "Combats": "https://www.winamax.fr/paris-sportifs/sports/10/800000243/46"
+        }
+    },
+    "Football américain": {
+        "États-Unis": {
+            "NFL ": "https://www.winamax.fr/paris-sportifs/sports/16/43/47"
+        }
+    }
+}

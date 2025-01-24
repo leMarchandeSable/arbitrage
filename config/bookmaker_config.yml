@@ -15,6 +15,7 @@ bookmakers:
     sport:
       NHL: "https://www.zebet.fr/paris-hockey-sur-glace/nhl"
       AHL: "https://www.zebet.fr/paris-hockey-sur-glace/ahl"
+      football: ""
 
   Pmu:
     mode: "playwright"
