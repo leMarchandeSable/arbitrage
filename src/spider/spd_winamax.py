@@ -1,24 +1,23 @@
 from utils.class_webdriver import WebDriver
 from utils.class_logger import Logger
 from utils.loaders import *
+from utils.function_matchs import clean_keys_in_dict
 import re
 
 
-def get_preloaded_state(soup, save=True):
+def get_preloaded_state(soup: BeautifulSoup) -> dict:
 
     # Extract the JavaScript object using regex
-    match = re.search(r"var PRELOADED_STATE = ({.*?});", str(soup.contents[2]))
+    match = re.search(r"var PRELOADED_STATE = ({.*?});", str(soup.contents[1]))
     if not match:
         raise ValueError("PRELOADED_STATE not found in the HTML")
 
     # Parse the JavaScript object into a Python dictionary
     preloaded_state = json.loads(match.group(1))
-    if save:
-        save_json("winamax_preloaded_state.json", preloaded_state)
     return preloaded_state
 
 
-def get_all_links(soup, save=True):
+def get_all_links(soup: BeautifulSoup) -> list:
     a_div = soup.find_all("a")
 
     links = []
@@ -31,11 +30,7 @@ def get_all_links(soup, save=True):
                 continue
             if "paris-sportifs" not in elements:
                 continue
-            if "match" in elements:
-                continue
-            if "paris-en-direct" in elements:
-                continue
-            if "account" in elements:
+            if any(excluded in elements for excluded in ["match", "paris-en-direct", "account"]):
                 continue
 
             sub_link = a["href"].replace('/paris-sportifs', '')
@@ -43,61 +38,54 @@ def get_all_links(soup, save=True):
         except Exception as e:
             pass
 
-    if save:
-        with open("winamax_links.txt", "w") as f:
-            for link in links:
-                f.write(link + '\n')
-    return links
+    return list(set(links))
 
 
-def organise_links(links, preloaded_state, save=True):
+def get_organise_links(links: list, preloaded_state: dict, excluded_sport: list = None) -> dict:
 
-    print(preloaded_state.keys())
+    if not excluded_sport:
+        excluded_sport = []
+
     indexs = {
         "sports": {id: data["sportName"] for id, data in preloaded_state["sports"].items()},
         "categories": {id: data["categoryName"] for id, data in preloaded_state["categories"].items()},
         "tournaments": {id: data["tournamentName"] for id, data in preloaded_state["tournaments"].items()},
     }
 
-    sports = {}
+    organised_links = {}
     for link in links:
         elements = link.split('sports/')[1].split('/')
-        sport_name = indexs["sports"][elements[0]]
 
-        if len(elements) == 1:
-            sports[sport_name] = {"all": link}
-        elif len(elements) == 3:
-            category_name = indexs["categories"][elements[1]]
-            tournament_name = indexs["tournaments"][elements[2]]
+        if len(elements) == 3:
+            sport_name = indexs["sports"].get(elements[0])
+            category_name = indexs["categories"].get(elements[1])
+            tournament_name = indexs["tournaments"].get(elements[2])
 
-            if sport_name not in sports.keys():
-                sports[sport_name] = {}
-            if category_name not in sports[sport_name].keys():
-                sports[sport_name][category_name] = {}
-            sports[sport_name][category_name][tournament_name] = link
+            if not sport_name or not category_name or not tournament_name:
+                continue
 
-    if save:
-        save_json("winamax_sports.json", sports)
-    return sports
+            if sport_name in excluded_sport:
+                continue
+
+            organised_links.setdefault(sport_name, {}).setdefault(category_name, {})[tournament_name] = link
+    return organised_links
 
 
-config = load_yaml("../../config/bookmaker_config.yml")
-debug = True
-timeout = 90000
-local = False
-mode = "playwright"
-url = "https://www.winamax.fr/paris-sportifs"
-actions = config["bookmakers"]["Winamax"]["actions"]
+if __name__ == "__main__":
 
-if local:
-    links = load_text("winamax_links.txt", strip=True)
-    preloaded_state = load_json("winamax_preloaded_state.json")
-else:
+    config = load_yaml("../../config/bookmaker_config.yml")
+    debug = False
+    timeout = 90000
+    mode = "playwright"
+    url = "https://www.winamax.fr/paris-sportifs"
+    actions = config["bookmakers"]["Winamax"]["actions"]
+    excluded_sport = ['Automobile', 'Biathlon', 'Cyclisme', 'Formule 1', 'Golf', 'Moto', 'Ski alpin', 'Ski de fond']
+
     logger = Logger("Winamax", debug)
     webdriver = WebDriver(config, logger, mode, debug, timeout)
-    # soup = webdriver.fetch_html(url, actions=actions)
-    soup = load_html("winamax.html")
-    links = get_all_links(soup, save=True)
-    preloaded_state = get_preloaded_state(soup, save=True)
+    soup = webdriver.fetch_html(url, actions=actions)
 
-organise_links(links, preloaded_state, save=True)
+    links = get_all_links(soup)
+    preloaded_state = get_preloaded_state(soup)
+    organise_links = get_organise_links(links, preloaded_state, excluded_sport=excluded_sport)
+    save_json("urls_winamax.json", organise_links)

@@ -80,6 +80,7 @@ class EventScraper:
                     "Away Odd": odds["away"],
                     "Date Unparse": date,
                     "scrapping_time": datetime.datetime.now().strftime(self.datetime_format),
+                    "url": self.url,
                 }
                 event_data.append(data)
                 # self.logger.info_log(f"Processed event {index}: {data}")
