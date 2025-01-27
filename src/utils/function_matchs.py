@@ -10,24 +10,19 @@ def clean_key(key):
     - Convert to lowercase
     - Replace hyphens (-) with spaces
     - Remove extra whitespace
+    - Normalize accents/diacritics
     - Remove non-alphanumeric characters except spaces
-    - Normalize accents/diacritics (optional)
     """
     # Lowercase
     key = key.lower()
-
     # Replace hyphens with spaces
     key = key.replace("-", " ")
-
     # Normalize accents/diacritics (if needed, uncomment the following lines)
     key = unicodedata.normalize('NFKD', key).encode('ascii', 'ignore').decode('utf-8')
-
     # Remove non-alphanumeric characters except spaces
     key = re.sub(r"[^a-z0-9\s]", "", key)
-
     # Remove extra whitespace
     key = " ".join(key.split())
-
     return key
 
 

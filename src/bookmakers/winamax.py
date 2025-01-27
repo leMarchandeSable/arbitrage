@@ -1,7 +1,8 @@
 import re
 
-from utils.loaders import load_yaml, load_html
-from utils.class_scrapper import EventScraper
+from utils.loaders import *
+from utils.class_scraper import EventScraper
+from utils.class_databasemanager import DatabaseManager
 
 
 class Winamax(EventScraper):
@@ -24,8 +25,8 @@ class Winamax(EventScraper):
         }
     }
 
-    def _get_events(self) -> list:
-        return self.soup.find_all(self.CSS['tag']['event'], {"data-testid": re.compile(r"match-card")})
+    def _get_events(self, soup) -> list:
+        return soup.find_all(self.CSS['tag']['event'], {"data-testid": re.compile(r"match-card")})
 
     def _get_teams(self, event) -> dict:
         teams_element = event.find_all(self.CSS['tag']['team'], class_=self.CSS['class']['team'])
@@ -55,14 +56,21 @@ class Winamax(EventScraper):
         odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
         self.logger.debug_log(f"CSS Bloc odds found: {odds_elements}")
 
-        if len(odds_elements) != 3:
+        if len(odds_elements) == 3:
+            odds = {
+                "home": float(odds_elements[0].text.replace(',', '.')),
+                "draw": float(odds_elements[1].text.replace(',', '.')),
+                "away": float(odds_elements[2].text.replace(',', '.')),
+            }
+        elif len(odds_elements) == 2:
+            odds = {
+                "home": float(odds_elements[0].text.replace(',', '.')),
+                "draw": "",
+                "away": float(odds_elements[1].text.replace(',', '.')),
+            }
+        else:
             self.logger.debug_log(f"Not exactly 3 odds: {odds_elements}")
-
-        odds = {
-            "home": float(odds_elements[0].text.replace(',', '.')),
-            "draw": float(odds_elements[1].text.replace(',', '.')),
-            "away": float(odds_elements[2].text.replace(',', '.')),
-        }
+            raise ValueError(f"Not exactly 3 odds:\n {odds_elements}")
 
         self.logger.debug_log(f"Odds found: {odds}")
         return odds
@@ -71,15 +79,30 @@ class Winamax(EventScraper):
 def main():
 
     config = load_yaml("../../config/bookmaker_config.yml")
-    sport = "football"     # "NHL"
+    db = DatabaseManager("../../data/database.csv")
+    dict_urls = load_json("../spider/urls_winamax.json")
 
     # Initialize the scraper
-    scraper = Winamax(config, sport, debug=True)
-    extracted_data = scraper.extract_event_data()
+    scraper = Winamax(config, debug=False)
 
-    print("\nExtracted Data:")
-    for event in extracted_data:
-        print(event)
+    for sport_name in dict_urls.keys():
+        for category_name in dict_urls[sport_name].keys():
+            for tournament_name in dict_urls[sport_name][category_name].keys():
+
+                keys = {
+                    "sport": sport_name,
+                    "category": category_name,
+                    "tournament": tournament_name,
+                }
+                url = dict_urls[sport_name][category_name][tournament_name]
+
+                extracted_data = scraper.extract_event_data(keys, url)
+
+                print("\nExtracted Data:")
+                for event in extracted_data:
+                    print(event)
+                    db.add_instance(event)
+                db.save_database()
 
 
 if __name__ == "__main__":

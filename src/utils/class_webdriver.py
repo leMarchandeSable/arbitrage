@@ -146,6 +146,9 @@ class WebDriver:
                 elif "scroll_down" in action:
                     self.logger.debug_log(f"Action {index}: scroll to the bottom of the page")
                     scroll_to_bottom(page, delay=action["scroll_down"])
+                elif "screen_shot" in action:
+                    self.logger.debug_log(f"Action {index}: take a screen shot of the page")
+                    page.screenshot(path=f"{action['screen_shot']}{time.time()}.png", full_page=True)
                 else:
                     raise ValueError(f"Unknown action type in action {index}: {action}")
                 page.wait_for_timeout(2000)

@@ -1,4 +1,5 @@
-from utils.loaders import load_yaml, save_yaml
+from utils.loaders import *
+from utils.function_matchs import clean_key
 import datetime
 
 
@@ -9,8 +10,11 @@ class Mapper:
         :param mapping_file: Path to the YAML file containing team name mappings.
         """
         self.mapping_file = mapping_file
-        self.team_mapper = load_yaml(self.mapping_file)["teams"]
-        self.date_mapper = load_yaml(self.mapping_file)["date"]
+        self.mapper = load_yaml(self.mapping_file)
+        self.team_mapper = self.mapper["teams"]
+        self.date_mapper = self.mapper["date"]
+        self.sport_mapper = self.mapper["sports"]
+        self.category_mapper = self.mapper["category"]
         self.date_format = "%Y-%m-%d"
         self.datetime_format = "%Y-%m-%d %H:%M:%S"
 
@@ -186,6 +190,23 @@ class Mapper:
         except Exception as e:
             raise e
         return date
+
+    # ------------------------------ sport parser ----------------------------------------------------------------------
+    def map_sport_unparse(self, sport_unparse: str) -> str:
+
+        for standard_name, variations in self.sport_mapper.items():
+            if sport_unparse in variations:
+                return standard_name
+
+        raise ValueError(f"[ERROR] Sport '{sport_unparse}' not found in the mappings.")
+
+    def map_category_unparse(self, category_unparse: str) -> str:
+
+        for standard_name, variations in self.category_mapper.items():
+            if category_unparse in variations:
+                return standard_name
+
+        raise ValueError(f"[ERROR] Category '{category_unparse}' not found in the mappings.")
 
 
 def main():
