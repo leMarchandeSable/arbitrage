@@ -6,5 +6,4 @@ playwright
 playwright-stealth
 pandas
 matplotlib
-sentence-transformers
 scikit-learn
