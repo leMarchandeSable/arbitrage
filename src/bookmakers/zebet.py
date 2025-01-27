@@ -132,5 +132,5 @@ def debug(url):
 
 
 if __name__ == "__main__":
-    main()
-    # debug("https://www.zebet.fr/paris-foot-americain/nfl/nfl-2024-2025")
+    # main()
+    debug("https://www.zebet.fr/paris-foot-americain/nfl/nfl-2024-2025")
