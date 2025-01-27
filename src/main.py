@@ -40,3 +40,4 @@ if __name__ == "__main__":
 
     app = App("config/bookmaker_config.yml")
     app.collect_games(sport="NHL")
+#
