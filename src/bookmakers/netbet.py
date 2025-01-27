@@ -1,6 +1,7 @@
 import datetime
-from utils.loaders import load_yaml
-from utils.class_scrapper import EventScraper
+from utils.loaders import *
+from utils.class_scraper import EventScraper
+from utils.class_databasemanager import DatabaseManager
 
 
 class Netbet(EventScraper):
@@ -24,14 +25,14 @@ class Netbet(EventScraper):
         }
     }
 
-    def _get_events(self):
+    def _get_events(self, soup):
         # from the main page with all the events, we collect the link the all the specific pages
         # specific url game = main url + href url
 
         # for every url game we fetch url to collect the html (like a normal event)
         # events is a list of html of each event
 
-        events = self.soup.find_all(self.CSS['tag']['event'], class_=self.CSS['class']['event'])
+        events = soup.find_all(self.CSS['tag']['event'], class_=self.CSS['class']['event'])
         if not events:
             self.logger.debug_log("No events found.")
             raise ValueError("No events were found on the page.")
@@ -40,7 +41,7 @@ class Netbet(EventScraper):
         pages = []
         for event in events:
             url_event = "https://www.netbet.fr" + event["href"]
-            html = self.webdriver.fetch_html(url_event)
+            html = self.webdriver.fetch_html(url_event, actions=[{"screen_shot": "screen_shot/netbet_"}])
             pages.append(html)
 
         return pages
@@ -71,14 +72,28 @@ class Netbet(EventScraper):
         return date_time_element.text
 
     def _get_odds(self, event) -> dict:
-        odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
+        # odds_elements = event.find_all(self.CSS['tag']['odd'], class_=self.CSS['class']['odd'])
         # self.debug_log(f"CSS Bloc odds found: {odds_elements}")
 
-        odds = {
-            "home": float(odds_elements[0].text),
-            "draw": float(odds_elements[2].text),
-            "away": float(odds_elements[4].text),
-        }
+        # Find all the containers of betting type 'avec handicape, sans ...'
+        all_bets = event.find_all("div", class_="parent-container-event open")
+        classic_bet = all_bets[0]         # classic bet is 1N2
+        odds_spans = classic_bet.find_all("span", class_="container-odd-and-trend")
+
+        if classic_bet.find("div", class_="over-3"):
+            odds = {
+                "home": float(odds_spans[0].get_text(strip=True)),
+                "draw": float(odds_spans[2].get_text(strip=True)),
+                "away": float(odds_spans[4].get_text(strip=True)),
+            }
+        elif classic_bet.find("div", class_="over-2"):
+            odds = {
+                "home": float(odds_spans[0].get_text(strip=True)),
+                "draw": "",
+                "away": float(odds_spans[2].get_text(strip=True)),
+            }
+        else:
+            raise ValueError(f"Not exactly 3 odds")
 
         self.logger.debug_log(f"Odds found: {odds}")
         return odds
@@ -87,15 +102,30 @@ class Netbet(EventScraper):
 def main():
 
     config = load_yaml("../../config/bookmaker_config.yml")
-    sport = "NHL"     # "NHL"
+    db = DatabaseManager("../../data/database.csv")
+    dict_urls = load_json("../spider/urls_netbet.json")
 
     # Initialize the scraper
-    scraper = Netbet(config, sport, debug=True)
-    extracted_data = scraper.extract_event_data()
+    scraper = Netbet(config, debug=False)
 
-    print("\nExtracted Data:")
-    for event in extracted_data:
-        print(event)
+    for sport_name in dict_urls.keys():
+        for category_name in dict_urls[sport_name].keys():
+            for tournament_name in dict_urls[sport_name][category_name].keys():
+
+                keys = {
+                    "sport": sport_name,
+                    "category": category_name,
+                    "tournament": tournament_name,
+                }
+                url = dict_urls[sport_name][category_name][tournament_name]
+
+                extracted_data = scraper.extract_event_data(keys, url)
+
+                print("\nExtracted Data:")
+                for event in extracted_data:
+                    print(event)
+                    db.add_instance(event)
+                db.save_database()
 
 
 if __name__ == "__main__":

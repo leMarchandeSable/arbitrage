@@ -152,7 +152,7 @@ def save_json(file_path: str, data: Dict[str, Any], mode: str = "w"):
 def load_pandas(path: str) -> pandas.DataFrame:
     try:
         data = pandas.read_csv(path)
-        print(f"DataFrame successfully loaded from '{path}'")
+        logger.info(f"DataFrame successfully loaded from '{path}'")
         return data
     except FileNotFoundError:
         logger.error(f"Pandas file not found at '{path}'.")

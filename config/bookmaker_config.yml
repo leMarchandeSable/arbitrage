@@ -7,15 +7,10 @@ path:
 bookmakers:
   Zebet:
     mode: "playwright"
+    url_path: "src/spider/urls_zebet.json"
     actions:
       - wait_for_selector: "#popin_tc_privacy_button_2"
       - click_on: "#popin_tc_privacy_button_2"
-      - wait_for_selector: "button:has-text('1 N 2')"
-      - click_on: "button:has-text('1 N 2')"
-    sport:
-      NHL: "https://www.zebet.fr/paris-hockey-sur-glace/nhl"
-      AHL: "https://www.zebet.fr/paris-hockey-sur-glace/ahl"
-      football: ""
 
   Pmu:
     mode: "playwright"
@@ -34,6 +29,7 @@ bookmakers:
     actions:
       - wait_for_selector: "#tarteaucitronPersonalize2"
       - click_on: "#tarteaucitronPersonalize2"
+      - screen_shot: "screen_shot/winamax_"
     sport:
       NHL: "https://www.winamax.fr/paris-sportifs/sports/4/37/142"
       football: "https://www.winamax.fr/paris-sportifs/sports/1"
@@ -45,5 +41,6 @@ bookmakers:
       - click_on: "button[data-tid='banner-accept']"
       - wait_for_selector: "a:has-text('Matchs')"
       - click_on: "a:has-text('Matchs')"
+      - screen_shot: "screen_shot/netbet_"
     sport:
       NHL: "https://www.netbet.fr/hockey-glace/etats-unis/nhl"

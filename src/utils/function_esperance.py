@@ -2,7 +2,7 @@ import pandas as pd
 
 from utils.class_databasemanager import DatabaseManager
 from utils.loaders import load_yaml
-from itertools import product
+from itertools import product, combinations, permutations
 
 
 def calc_esperance(odd_1: float, odd_N: float, odd_2: float) -> float:
@@ -55,7 +55,7 @@ def find_arbitrage(df: pd.DataFrame):
 
 
 if __name__ == "__main__":
-    config = load_config("../../config/bookmaker_config.yml")
+    config = load_yaml("../../config/bookmaker_config.yml")
     db = DatabaseManager("../../data/database.csv")
 
     find_arbitrage(db.data)

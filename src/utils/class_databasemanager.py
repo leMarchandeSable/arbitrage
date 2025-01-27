@@ -54,6 +54,47 @@ class DatabaseManager:
                 print(f"data row {index}: KeyError 'scrapping_time', 'Date Unparse' or 'Bookmaker' not found {list(event.keys())}")
                 raise ke
             except Exception as e:
+                print(e)
+                raise e
+
+        self.save_database()
+
+    def standardise_sports(self, mapper: Mapper):
+
+        for index, event in self.data.iterrows():
+            try:
+                sport_unparse = event["Sport Unparse"]
+
+                if self._isnan(sport_unparse):
+                    continue
+
+                self.data.at[index, "Sport"] = mapper.map_sport_unparse(sport_unparse)
+
+            except KeyError as ke:
+                print(f"data row {index}: Key value not found {event.keys()}")
+                raise ke
+            except Exception as e:
+                print(e)
+                raise e
+
+        self.save_database()
+
+    def standardise_category(self, mapper: Mapper):
+
+        for index, event in self.data.iterrows():
+            try:
+                category_unparse = event["Category Unparse"]
+
+                if self._isnan(category_unparse):
+                    continue
+
+                self.data.at[index, "Category"] = mapper.map_category_unparse(category_unparse)
+
+            except KeyError as ke:
+                print(f"data row {index}: Key value not found {event.keys()}")
+                raise ke
+            except Exception as e:
+                print(e)
                 raise e
 
         self.save_database()
@@ -66,13 +107,10 @@ if __name__ == "__main__":
     # db = DatabaseManager(config["path"]["database"])
     # mapping = Mapper(config["path"]["mapping"])
     db = DatabaseManager("../../data/database.csv")
-    mapping = Mapper("../../data/mapping.yml")
-
-    team_names = list(db.data["Home Team Unparse"]) + list(db.data["Away Team Unparse"])
-
-    # Rename the existing DataFrame columns (columns={'oldName1': 'newName1', 'oldName2': 'newName2'})
-    # db.data.rename(columns={'Home Team': 'Home Team Unparse', 'Away Team': 'Away Team Unparse'}, inplace=True)
+    mapper = Mapper("../../data/mapping.yml")
 
     # mapping.update_mapper(sport, team_names)
-    # db.map_team_names(sport, mapping)
-    db.standardise_dates(mapping)
+    # db.map_team_names(sport, mapper)
+    # db.standardise_dates(mapper)
+    db.standardise_sports(mapper)
+    db.standardise_category(mapper)

@@ -1,7 +1,6 @@
 from utils.class_webdriver import WebDriver
 from utils.class_logger import Logger
 from utils.loaders import *
-from utils.function_matchs import clean_keys_in_dict
 
 
 def get_all_links(soup: BeautifulSoup) -> list:
@@ -15,7 +14,7 @@ def get_all_links(soup: BeautifulSoup) -> list:
 
             if len(elements) != 4:
                 continue
-            if any(excluded in elements for excluded in ["cotes-boostees", "https:", "paris-en-direct"]):
+            if any(excluded in elements for excluded in ["cotes-boostees", "https:", "paris-en-direct", "multibuts"]):
                 continue
 
             links.append(url + a["href"])
