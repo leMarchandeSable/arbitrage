@@ -117,10 +117,10 @@ def main():
 
 def debug(url):
 
-    config = load_yaml("../../config/bookmaker_config.yml")
+    config = load_yaml("../config/bookmaker_config.yml")
 
     # Initialize the scraper
-    scraper = Zebet(config, debug=False)
+    scraper = Zebet(config, debug=True)
 
     keys = {"sport": "", "category": "", "tournament": ""}
 
